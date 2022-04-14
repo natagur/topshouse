@@ -1,0 +1,87 @@
+.lang {
+    position: relative;
+    &__title {
+        font-size: .8125rem;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        p {
+            margin-left: 7px;
+            margin-right: 5px;
+            border-bottom: 1px dotted currentColor;
+        }
+        span {
+            display: block;
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 18px;
+            height: 12px;
+            margin-right: 7px;
+        }
+        i {
+            font-size: 0.75rem!important;
+            transition: 0.3s ease;
+        }
+        &.active {
+            i {
+                transform: rotate(180deg);
+            }
+        }
+        &:hover {
+            p {
+                border-bottom: none;
+            }
+        }
+    }
+    &__contain {
+        position: absolute;
+        left: 0;
+        top: 100%;
+        background-clip: padding-box;
+        background-color: #fff;
+        border: 2px solid #ebebe8;
+        border-radius: 3px;
+        box-shadow: 0 10px 20px rgb(44 44 40 / 5%);
+        color: #212529;
+        font-size: 1rem;
+        margin: 0.25rem 0 0;
+        min-width: 10rem;
+        padding: 0.25rem 0;
+        z-index: 1000;
+        display: none;
+        a {
+            font-size: .8125rem;
+            display: flex;
+            align-items: center;
+            color: #2e2c28;
+            font-weight: 400;
+            padding: 0.5rem 0.875rem;
+            text-align: inherit;
+            white-space: nowrap;
+            width: 100%;
+            cursor: pointer;
+            span {
+                display: block;
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 18px;
+                height: 12px;
+                margin-right: 7px;
+            }
+            i {
+                margin-right: 5px;
+                margin-left: 37px;
+                display: none;
+            }
+            &.active {
+                background-color: #f2f2f0;
+                cursor: default;
+                i {
+                    display: block;
+                }
+            }
+        }
+    }
+}

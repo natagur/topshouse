@@ -1,0 +1,45 @@
+.header-bottom {
+  position: fixed;
+  background: #a0cf11;
+  width: 100%;
+  transition: .2s;
+  z-index: 99999;
+  top: 0;
+  &_padding {
+    padding: 12px 0 15px 21px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  &__descr-bottom{
+    font-size: 15px;
+    color: #2c2c28;
+    padding-right: 14px;
+  }
+  &__btn{
+    padding-right: 16px;
+  }
+  .btn__btn_gray{
+    background: #2e2c28;
+    border-radius: 3px;
+    font-size: 13px;
+    color: #fff;
+    background: #2e2c28;
+    border-radius: 3px;
+    color: #fff;
+    padding: 10px;
+  }
+  &__time{
+    display: flex;
+    align-items: center;
+  }
+  &__time-descr{
+    font-size: 15px;
+  }
+  .fa-regular.fa-clock{
+    padding-right: 10px;
+  }
+
+}
+
+

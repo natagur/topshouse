@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+@include('partials/head.html')
+
+<body class="page__body">
+  <div class="site-container">
+    @include('partials/header.html')
+    <main class="main">
+      @include('partials/stock.html')
+      @include('partials/slider.html')
+      @include('partials/slider-list.html')
+      @include('partials/slider-suggestions.html')
+
+    </main>
+
+    @include('partials/footer.html')
+    <!-- @include('html/h1.html') пример include -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ddc6ff46bf.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://kit.fontawesome.com/70f9be6766.js" crossorigin="anonymous"></script> -->
+  </div>
+</body>
+
+</html>

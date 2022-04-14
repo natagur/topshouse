@@ -1,0 +1,91 @@
+.nav {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    &__title {
+        color:#6c6963;
+        color: #000!important;
+        font-size: 14px!important;
+        position: relative;
+        font-weight: 400;
+        padding: 0.5rem 0.875rem;
+        text-align: inherit;
+        white-space: nowrap;
+    }
+    &__elem {
+        position: relative;
+        color:#6c6963;
+        display: flex;
+        align-items: center;
+        a {
+            color:#6c6963;
+        }
+        i {
+            font-size: 0.75rem!important;
+            margin-left: 7px;
+            color: #bc9959;
+        }
+    }
+    &__drop {
+        position: absolute;
+        top: 100%;
+        background-clip: padding-box;
+        background-color: #fff;
+        border: 2px solid #ebebe8;
+        border-radius: 3px;
+        box-shadow: 0 10px 20px rgb(44 44 40 / 5%);
+        color: #212529;
+        font-size: 1rem;
+        left: 10px;
+        margin: 0.25rem 0 0;
+        min-width: 10rem;
+        padding: 0.25rem 0;
+        position: absolute;
+        text-align: left;
+        z-index: 1000;
+        opacity: 0;
+        pointer-events: none;
+        transition: 0.3s ease;
+        &.active {
+            opacity: 1;
+            pointer-events: initial;
+        }
+    }
+    &__title_drop {
+        color: #000!important;
+        font-size: 14px!important;
+        position: relative;
+        font-weight: 400;
+        padding: 0.5rem 0.875rem;
+        text-align: inherit;
+        white-space: nowrap;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        i {
+            color: #000;
+            transition: 0.3s ease;
+        }
+        &.active {
+            i {
+                transform: rotate(180deg);
+            }
+        }
+    }
+    &__drop-drop {
+        position: absolute;
+        top: 0;
+        right: 100%;
+        background: #fff;
+        box-shadow: 8px 8px 10px 0px rgb(0 0 0 / 20%);
+        opacity: 0;
+        pointer-events: none;
+        transition: 0.3s ease;
+        &.active {
+            opacity: 1;
+            pointer-events: initial;
+        }
+    }
+}
