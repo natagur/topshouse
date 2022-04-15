@@ -1,0 +1,27 @@
+.offer{
+  margin-bottom: 60px;
+  &____flex{
+    display: flex;
+  }
+  &__content{
+    background: url("/img/oblozhka.webp");
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 27vw;
+    background-size: contain;
+    position: relative;
+  }
+  .offer-after{
+    display: none;
+  }
+  .offer-block{
+    background-image: linear-gradient(180deg,transparent,rgba(0,0,0,.7));
+    position: absolute;
+    bottom: 0;
+    width: 92%;
+  }
+  .offer-description{
+    background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.7));
+    padding: 5.5% 6%;
+  }
+}

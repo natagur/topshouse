@@ -1,5 +1,8 @@
 .slider-suggestions{
   padding-bottom: 70px;
+  .wrapper{
+    overflow: hidden;
+  }
   .section-suggestions__section-title{
     font-weight: 100;
     color: #2c2c28;
@@ -8,14 +11,12 @@
   }
   &__block-suggestions{
     display: flex;
+    height: 32vw;
   }
   .suggestions-list{
-    max-width: 337px;
+    min-width: calc(25vw - 25px);
     height: 100%;
-    padding-right: 25px;
-  }
-  .suggestions-list:nth-child(4n){
-    padding-right: 0px;
+    margin-right: 25px;
   }
   .suggestions-backgraund{
     margin-bottom: 25px;
@@ -79,5 +80,38 @@
     color: #47443e;
     font-weight: 600;
   }
-
+  .suggestions-info{
+    padding: 20px;
+    background: url(img/stroy.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .suggestions-des{
+    font-size: 22px;
+    color: #bc9959;
+    font-weight: 500;
+    padding-bottom: 18px;
+  }
+  .suggestions-info-descr{
+    font-size: 34px;
+    line-height: 34px;
+    padding-bottom: 15px;
+    font-style: italic;
+    font-weight: 700;
+    color: #2c2c28;
+  }
+  .btn_brown{
+    background: #b38d48;
+    color: #fff;
+  }
+  // .suggestions-images-bg{
+  //   content: "img/stroy.jpg";
+  //   background-size: 100%;
+  //   background-repeat: no-repeat;
+  // }
+  .suggestions-list-border{
+    outline: 10px solid #bc9959;
+    outline-offset: -10px;
+  }
 }

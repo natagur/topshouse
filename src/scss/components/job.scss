@@ -1,0 +1,84 @@
+.job{
+  background: url("/img/our-work-bg.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  margin-bottom: 50px;
+  position: relative;
+  .job-images{
+    position: absolute;
+    right: -8px;
+    top: -28px;
+  }
+  &__container-job{
+    display: flex;
+    padding-bottom: 93px;
+    justify-content: space-between;
+  }
+  &__left-job {
+    padding-top: 58px;
+    width: 40%;
+  }
+  &__right-job{
+    width: 53%;
+    // background: url("/img/tape.webp");
+  }
+  .left-block_top{
+    color: #bc9959;
+    font-weight: 500;
+    font-size: 22px;
+    padding-bottom: 8px;
+  }
+  .left-block_bottom{
+    color: #2c2c28;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 44px;
+    padding-bottom: 20px;
+  }
+  .left-block_info{
+    color: #2c2c28;
+    line-height: 1.625rem;
+    font-size: 16px;
+    padding-bottom: 25px;
+  }
+  .job-list{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .job-item{
+    display: flex;
+    width: 50%;
+    position: relative;
+  }
+  .job-span{
+    color: #bc9959;
+    font-size: 6.25rem;
+    font-style: italic;
+    font-weight: 700;
+    opacity: .1;
+  }
+  .fa-regular.fa-message{
+    color: #bc9959;
+    font-size: 1.875rem;
+    position: absolute;
+    top: 43px;
+    left: 31px;
+  }
+  .left-block-center{
+    padding-top: 62px;
+  }
+  .job-right-desc{
+    color: #212529;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.25rem;
+  }
+  .job-right-desc-bot{
+    line-height: 1.25rem;
+    font-size: 13px;
+    color: #212529;
+    font-weight: 400;
+  }
+}
+
