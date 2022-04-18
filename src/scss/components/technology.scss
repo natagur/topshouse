@@ -1,0 +1,57 @@
+.technology{
+  background: url(/img/our-work-bg.jpg);
+  padding-bottom: 73px;
+  margin-bottom: 1px;
+  &__info{
+    padding-top: 73px;
+    padding-bottom: 35px;
+  }
+  &_descr_brow{
+    font-size: 22px;
+    color: #bc9959;
+    font-family: MuseoSans,sans-serif;
+    font-weight: 500;
+    line-height: 1;
+    padding-bottom: 5px;
+  }
+  &_descr_black{
+    color: #2c2c28;
+    font-family: 'PFRegalTextPro-BoldItalic',sans-serif;
+    font-size: 44px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .section-technology-title{
+    padding-bottom: 20px;
+    color: #212529;
+    font-family: OpenSans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    line-height: 1.5;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+  }
+  .technology-list{
+    display: flex;
+    justify-content: end;
+  }
+  .technology-title-descr{
+    color: #2c2c28;
+    font-size: 22px;
+    font-weight: 900;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  .technology-description{
+    color: #2c2c28;
+    font-size: 13px;
+    line-height: 24px;
+  }
+  .technology-item{
+    padding-right: 10px;
+    width: 100%;
+  }
+  .technology-item:last-child{
+    padding-right:0px;
+  }
+}

@@ -3,25 +3,331 @@
   &____flex{
     display: flex;
   }
+  &__flex{
+    display: flex;
+  }
   &__content{
     background: url("/img/oblozhka.webp");
     background-repeat: no-repeat;
     width: 50%;
-    height: 27vw;
-    background-size: contain;
+    height: 34vw;
+    background-size: 100%;
     position: relative;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  &__content:focus{
+    .offer-after{
+      background: #2e2c2893;
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: 10;
+      outline: 5px solid #a0cf11;
+      border-width: 0 0 20px 20px;
+      .offer-after-desc{
+        color: #fff;
+      }
+    }
+  }
+  .section-suggestions__section-title{
+    font-size: 36px;
+    font-weight: 100;
+    color: #2c2c28;
+    margin-bottom: 15px;
   }
   .offer-after{
     display: none;
   }
   .offer-block{
-    background-image: linear-gradient(180deg,transparent,rgba(0,0,0,.7));
+    background: #2e2c28;
     position: absolute;
     bottom: 0;
-    width: 92%;
+    width: 100%;
   }
   .offer-description{
+    background-image: linear-gradient(180deg,transparent,rgba(0,0,0,.7));
+    padding: 0px 47px;
+    height: 67px;
+  }
+  .offer-info{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #fff;
+    transform: translateY(-18px);
+  }
+  .offer-data{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 900;
+    color: #fff;
+    transform: translateY(-13px);
+  }
+  &__sale{
+    background: url(/img/commercial.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+    border: 10px solid #bc9959;
+    width: 25%;
+    min-height: 465px;
+    margin-right: 5px;
+  }
+  &__sale-info{
+    padding: 20px;
+  }
+  .offer-desc{
+    font-size: 22px;
+    color: #bc9959;
+    font-weight: 500;
+    padding-bottom: 17px;
+  }
+  .offer-info-descr{
+    padding-bottom: 15px;
+    font-size: 34px;
+    line-height: 37px;
+    font-style: italic;
+    font-weight: 500;
+  }
+  .btn_brown{
+    background: #bc9959;
+    border-color: #bc9959;
+    color: #fff;
+    max-width: 100%;
+  }
+  .btn_brown:focus{
+    background: #b38d48;
+    border-color: #b38d48;
+  }
+  .offer-info-text{
+    color: #2c2c28;
+    font-size: 13px;
+    line-height: 22px;
+    padding-bottom: 15px;
+  }
+  .offer-after-desc{
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-left: 20px;
+  }
+  &__border_green{
+    border-color: transparent transparent #a0cf11;
+    border-style: solid;
+    border-width: 0 0 20px 20px;
+    bottom: 0px;
+    height: 0;
+    position: absolute;
+    right: 0px;
+    width: 22px;
+    z-index: 6;
+  }
+  span{
+    position: absolute;
+    right: 1px;
+    color: black;
+  }
+
+  // time
+
+
+  &__time-warranty{
+    display: block;
+    width: 25%;
+    height: 465px;
+    position: relative;
+    .offer__time{
+      background: url(/img/time.webp);
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 48%;
+      background-size: 100%;
+      position: relative;
+      margin-bottom: 5px;
+    }
+    .offer__time a:focus{
+      .offer-after{
+        background: #2e2c2893;
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+        outline: 5px solid #a0cf11;
+        border-width: 0 0 20px 20px;
+        .offer-after-desc{
+          color: #fff;
+        }
+      }
+    }
+    .offer-time-description{
+      padding: 0px 20px;
+      position: absolute;
+      bottom: 0px;
+      width: 100%;
+    }
+    .offer-block-time{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+    .offer-time-description{
+      background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.7));
+    }
+
+    // warranty
+
+    .offer__warranty{
+      background: url(/img/warranty.webp);
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 50%;
+      background-size: 100%;
+      position: relative;
+    }
+    .offer__warranty a:focus{
+      .offer-after{
+        background: #2e2c2893;
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+        outline: 5px solid #a0cf11;
+        border-width: 0 0 20px 20px;
+        .offer-after-desc{
+          color: #fff;
+        }
+      }
+    }
+    .offer-time-description{
+      background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.7));
+    }
+  }
+
+  // product
+
+  &__product{
+    background: url("/img/slider1.webp");
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 16vw;
+    background-size: 100%;
+    position: relative;
+    margin-right: 5px;
+  }
+  &__product:focus{
+    .offer-after{
+      background: #2e2c2893;
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: 10;
+      outline: 5px solid #a0cf11;
+      border-width: 0 0 20px 20px;
+      .offer-after-desc{
+        color: #fff;
+      }
+    }
+  }
+  .offer-block-time{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .offer-time-description{
     background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.7));
-    padding: 5.5% 6%;
+    padding: 20px 20px;
+    left: 0;
+    bottom: 0px;
+    right: 0;
+    position: absolute;
+  }
+  // friends
+
+  &__friends{
+    background: url("/img/friends.webp");
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 34vw;
+    background-size: 100%;
+    position: relative;
+    margin-right: 5px;
+  }
+  &__friends:focus{
+    .offer-after{
+      background: #2e2c2893;
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: 10;
+      outline: 5px solid #a0cf11;
+      border-width: 0 0 20px 20px;
+      .offer-after-desc{
+        color: #fff;
+      }
+    }
+  }
+  .offer-block-time{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .offer-time-description{
+    background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.7));
+    padding: 20px 20px;
+    left: 0;
+    bottom: 0px;
+    right: 0;
+    position: absolute;
+  }
+  // confidence
+
+  &__confidence{
+    background: url("/img/confidence.webp");
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 16vw;
+    background-size: 100%;
+    position: relative;
+    margin-right: 5px;
+  }
+  &__confidence:focus{
+    .offer-after{
+      background: #2e2c2893;
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: 10;
+      outline: 5px solid #a0cf11;
+      border-width: 0 0 20px 20px;
+      .offer-after-desc{
+        color: #fff;
+      }
+    }
+  }
+  .offer-block-time{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .offer-time-description{
+    background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.7));
+    width: 100%;
+    padding: 20px 20px;
+    left: 0;
+    bottom: 0px;
+    right: 0;
+    position: absolute;
   }
 }

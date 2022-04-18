@@ -1,0 +1,42 @@
+.credit{
+  background: url(/img/offers-bg.jpg);
+  background-repeat: no-repeat;
+  &__center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+  &__left,
+  &__right{
+    display: flex;
+  }
+  .fa-regular.fa-piggy-bank,
+  .fa-regular.fa-baby{
+    color: #bc9959;
+    font-size: 46px;
+    margin: auto;
+  }
+  &_info{
+    padding-right: 21px;
+    padding-left: 5px;
+  }
+  &_brown{
+    color: #e4c283;
+    font-size: 18px;
+  }
+  &_white{
+    color: #fff;
+    font-size: 24px;
+  }
+  .btn_brown{
+    background: #e4c283;
+    border-color: #e4c283;
+    color: #2c2c28;
+  }
+  .btn_brown:focus{
+    background: #b38d48;
+    border-color: #b38d48;
+  }
+}

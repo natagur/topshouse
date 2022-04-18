@@ -1,0 +1,65 @@
+.clients{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  &__flex{
+    display: flex;
+    justify-content: space-between;
+  }
+  &_descr_brow{
+    font-size: 22px;
+    color: #bc9959;
+    font-family: MuseoSans,sans-serif;
+    font-weight: 500;
+    line-height: 1;
+  }
+  &_descr_black{
+    color: #2c2c28;
+    font-size: 44px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 1;
+    font-family: 'PFRegalTextPro-BoldItalic',sans-serif;
+    margin-bottom: 10px;
+  }
+  &_left{
+    width: 34%;
+  }
+  &_descr_description{
+    color: #2c2c28;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 15px;
+  }
+  &__avatar{
+    display: flex;
+    position: relative;
+  }
+  .clients-info{
+    margin-left: 10px;
+    padding-left: 78px;
+  }
+  .clients-name{
+    color: #2c2c28;
+    font-family: MuseoSans,sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .clients-address{
+    color: #68655e;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+  &__text-info{
+    background: #cbf1f9;
+    border-radius: 20px;
+    color: #2e2c28;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 30px;
+    margin-left: 36px;
+  }
+  .clients-images{
+    position: absolute;
+  }
+}
