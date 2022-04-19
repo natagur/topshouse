@@ -1,0 +1,45 @@
+.information{
+  background: url(/img/our-work-bg.jpg);
+  padding-bottom: 45px;
+  padding-top: 70px;
+  .section__information_title{
+    padding-bottom: 7px;
+    color: #212529;
+    font-family: OpenSans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    font-weight: 700;
+    line-height: 48px;
+    font-size: 34px;
+  }
+  .information_descr{
+    margin-bottom: 20px;
+  }
+  &__section-title{
+    color: #212529;
+    font-family: OpenSans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    font-weight: 700;
+    line-height: 36px;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  &__line{
+    margin-bottom: 10px;
+  }
+  &__item{
+    margin-bottom: 10px;
+    &:before{
+      content: "";
+      padding-right: 29px;
+      background: url(/img/marker.png);
+      background-repeat: no-repeat;
+      background-position-y: center;
+    }
+  }
+  &_link{
+    color: #a0cf11;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  &_description_descr{
+    margin-bottom: 20px;
+  }
+}

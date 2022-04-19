@@ -232,7 +232,7 @@ const images = () => {
 
 const webpImages = () => {
   return src([`${paths.srcImgFolder}/**/**.{jpg,jpeg,png,webp}`])
-    .pipe(webp())
+    // .pipe(webp())
     .pipe(dest(paths.buildImgFolder))
 };
 

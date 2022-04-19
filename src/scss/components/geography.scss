@@ -1,0 +1,37 @@
+.geography{
+  // display: flex;
+  &__info{
+    width: 50%;
+    background: #fff;
+    padding: 20px 30px 0;
+  }
+  // &__geo{
+  //   width: 50%;
+  // }
+  &__section-title{
+    color: #2c2c28;
+    font-family: MuseoSans,sans-serif;
+    font-size: 36px;
+  }
+  &__left_link.active{
+    border-bottom: 2px solid #bc9959;
+    padding-bottom: 4px;
+    color: #bc9959;
+    line-height: 34px;
+    margin-right: 20px;
+  }
+  &__right_link{
+    // border-bottom: 2px solid #9c9993;
+    padding-bottom: 5px;
+    color: #9c9993;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 34px;
+  }
+  &__list{
+    display: none;
+  }
+  &__general-block{
+    display: flex;
+  }
+}

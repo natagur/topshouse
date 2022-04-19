@@ -22,7 +22,8 @@
     margin-bottom: 10px;
   }
   &_left{
-    width: 34%;
+    width: 46%;
+    margin-right: 40px;
   }
   &_descr_description{
     color: #2c2c28;
@@ -61,5 +62,26 @@
   }
   .clients-images{
     position: absolute;
+  }
+  .clients-link-descr{
+    font-family: MuseoSans,sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .clients-link{
+    text-decoration: underline;
+    color: #bc9959;
+  }
+  .clients-link:focus{
+    text-decoration: none;
+  }
+  .clients-right{
+    width: 100%;
+  }
+  iframe{
+    width: 100%;
+    height: 100%;
   }
 }
