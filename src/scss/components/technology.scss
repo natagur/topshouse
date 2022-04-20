@@ -55,3 +55,17 @@
     padding-right:0px;
   }
 }
+
+
+
+@media (max-width:1320px){
+  .technology {
+    padding: 40px;
+    .technology-list{
+      display: block;
+    }
+    .technology-item {
+      min-width: 100%;
+    }
+  }
+}

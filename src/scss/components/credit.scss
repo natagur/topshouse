@@ -40,3 +40,18 @@
     border-color: #b38d48;
   }
 }
+
+
+@media (max-width:1320px){
+  .credit {
+    background-size: 600%;
+    .fa-regular.fa-piggy-bank,
+    .fa-regular.fa-baby{
+      display: none;
+    }
+    .credit__center{
+      display: block;
+      padding: 20px;
+    }
+  }
+}

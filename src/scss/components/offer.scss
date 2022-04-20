@@ -331,3 +331,39 @@
     position: absolute;
   }
 }
+
+
+@media (max-width:1320px){
+  .offer {
+    padding: 20px;
+    .offer__flex {
+      flex-wrap: nowrap;
+      overflow: auto;
+    }
+    .offer__content {
+      width: 75vw;
+      min-width: 60vw;
+      height: 45vw;
+    }
+    .offer__sale,
+    .offer__product,
+    .offer__friends,
+    .offer__confidence {
+      width: 75vw;
+      min-width: 84vw;
+      height: 45vw;
+      min-height: 45vw;
+    }
+    .offer__time-warranty {
+      min-width: 90vw;
+      display: flex;
+      height: 45vw;
+    }
+    .offer__time-warranty .offer__time,
+    .offer__time-warranty .offer__warranty {
+      min-width: 57vw;
+      margin-right: 10px;
+      height: 100%;
+    }
+  }
+}

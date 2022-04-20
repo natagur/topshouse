@@ -83,3 +83,27 @@
   }
 }
 
+
+
+@media (max-width:1320px){
+  .job {
+    padding: 20px;
+    .job__container-job{
+      display: block;
+    }
+    .job__right-job{
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width:700px){
+  .job {
+    .job-images {
+      display: none;
+    }
+    &__left-job{
+      width: 100%;
+    }
+  }
+}

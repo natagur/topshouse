@@ -15,7 +15,16 @@
     max-width: 433px;
     margin-right: 7px;
     position: relative;
-    padding-bottom: 7px;
+    margin-bottom: 7px;
+  }
+  .slider-list-item:not(:first-child):after{
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg,transparent,rgba(0,0,0,.6));
+    position: absolute;
+    top: 0px;
   }
   .slider-list-item:nth-child(3n){
     margin-right: 0px;
@@ -46,6 +55,7 @@
     position: absolute;
     bottom: 32px;
     padding-left: 37px;
+    z-index: 1;
   }
   .slider-list-text{
     color: #fff;
@@ -63,5 +73,19 @@
   }
   .slider-list-garden{
     height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+@media (max-width:1320px){
+  .slider-list {
+    .slider-list__list-title {
+    flex-wrap: nowrap;
+    overflow: auto;
+    }
+    .slider-list-item {
+      min-width: 433px;
+    }
   }
 }

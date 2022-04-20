@@ -32,3 +32,13 @@
     font-size: 15px;
   }
 }
+
+
+@media (max-width:1320px){
+  .home__youtube iframe{
+    height: 100%;
+  }
+  .home__object{
+    display: none;
+  }
+}
