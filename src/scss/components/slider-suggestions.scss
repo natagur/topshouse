@@ -173,4 +173,14 @@
     left: 50%;
     transform: translateX(-50%);
   }
+  .slider-suggestions__block-suggestions{
+    height: 50vw;
+  }
+  .suggestions-link p{
+    font-size: 15px;
+  }
+  .suggestions-span{
+    font-size: 10px!important;
+    margin-top: 30px;
+  }
 }

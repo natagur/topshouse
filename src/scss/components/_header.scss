@@ -14,6 +14,7 @@
             height: 40px;
             font-size: .8125rem;
             position: relative;
+            z-index: 9;
         }
         &_middle {
             position: relative;
@@ -114,10 +115,111 @@
             border-bottom: none;
         }
     }
+    &__bg-block{
+      display: none;
+      background: rgba(0, 0, 0, 0.575);
+      width: 100vw;
+      height: 100%;
+      position: fixed;
+      left: 0;
+      top: 0;
+      z-index: 999;
+    }
+    &__icon{
+      margin: auto;
+    }
+    &__link_choice{
+      background: #fff;
+      width: 25%;
+      margin: auto;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+    }
+    &__icon{
+      display: flex;
+    }
+    &__section_title-city{
+      color: #fff;
+      font-family: MuseoSans,sans-serif;
+      font-size: 50px;
+      font-weight: 100;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    &_choise{
+      position: relative;
+    }
+    input{
+      margin: 10px 0 10px 18px;
+      height: 38px;
+      padding: 7px 12px;
+      width: 78%;
+      font-size: 14px;
+      line-height: 1.42857143;
+      color: #90bc54;
+      background-color: #fff;
+      background-image: none;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    &__link_fa{
+      position: absolute;
+      top: 10px;
+      right: 20px;
+    }
+    &__list{
+      border-top: 1px solid #ebebeb;
+      overflow: auto;
+      height: 50vh;
+    }
+    &__item{
+      padding-left: 40px;
+      padding-right: 15px;
+      border-bottom: 1px solid #ebebeb;
+      line-height: 50px;
+      height: 50px;
+      cursor: pointer;
+      &:hover{
+        background: #a0cf11;
+        position: relative;
+        &::after{
+          content: '';
+          background: url(/img/check.png);
+          background-repeat: no-repeat;
+          width: 14px;
+          height: 14px;
+          position: absolute;
+          top: 17px;
+          right: 20px;
+        }
+      }
+    }
+    &__description{
+      padding: 25px 40px;
+    }
+
+    &__item_link{
+      color: #000;
+      font-size: 18px;
+    }
+    &__descr-bottom{
+      font-size: 20px;
+      line-height: 24px;
+      color: #2c2c28;
+    }
+    &__descr-bottom-descr{
+      color: #2c2c28;
+      font-size: 10px;
+      line-height: 10px;
+    }
+
+  .fa.fa-location-dot{
+    display: none;
+  }
     .fa-chevron-down {
         color: #e4c283;
         margin-left: 6px;
     }
+
     &:hover {
         span {
             border-bottom: none;
@@ -249,7 +351,7 @@
     .city>span{
       display: none;
     }
-    .fa fa-location-dot{
+    .fa.fa-location-dot{
       display: block;
     }
     .header__fa_mobile{

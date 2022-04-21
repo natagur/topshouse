@@ -91,7 +91,9 @@
     .nav__mobile{
       display: none;
     }
+
     .nav__drop .nav__title_drop{
+      z-index: 99999999;
       &:hover{
         background: #f2f2f0;
       }

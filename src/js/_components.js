@@ -167,3 +167,32 @@ $(document).on('click', '.slider-suggestions .click-gray', function(event){
 $('.burger').click(function(){
   $('.header__nav .nav').toggleClass('active');
 });
+
+
+// stock//
+
+function getBodyScrollTop()
+{
+return self.pageYOffset || (document.documentElement && document.documentElement.scrollTop) || (document.body && document.body.scrollTop);
+}
+$(document).scroll(function(){
+  console.log(getBodyScrollTop());
+
+if (getBodyScrollTop() > 134) $('.header-bottom').css('position', 'fixed');
+else $('.header-bottom').css('position', 'inherit');
+});
+
+
+// city//
+
+$(document).on('click', '.city .fa.fa-chevron-down', function(event){
+  $('.city__bg-block').show();
+
+  event.preventDefault();
+});
+
+$(document).on('click', '.fa-regular.fa-xmark', function(event){
+  $('.city__bg-block').hide();
+
+  event.preventDefault();
+});
