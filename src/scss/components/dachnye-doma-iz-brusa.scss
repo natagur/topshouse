@@ -1,0 +1,85 @@
+.catalog {
+  background: #f7f7f7;
+  .wrapper{
+    display: flex;
+  }
+  &__filter {
+    background: #fff;
+    padding: 30px 20px 10px;
+    width: 23%;
+    &_input-choice{
+      display: flex;
+      width: 100%;
+      input{
+        border: 2px solid #ebebe8;
+        border-radius: 2px;
+        line-height: 40px;
+        color: #3f3f3f;
+        font-size: 16px;
+        margin-bottom: 40px;
+        width: 100%;
+      }
+    }
+    &_title{
+      color: #2e2c28;
+      font-size: 19px;
+      font-weight: bold;
+      padding-bottom: 50px;
+    }
+    &_input-descr{
+      color: #9c9993;
+      font-size: 13px;
+      font-family: OpenSans,sans-serif;
+      padding-bottom: 10px;
+    }
+    &_input-left,
+    &_input-right{
+      width: 50%;
+    }
+  }
+  &__section_title{
+    font-size: 36px;
+    margin-bottom: 36px;
+  }
+  &__container {
+    width: 70%;
+    &_list {
+      display: flex;
+      flex-flow: wrap;
+    }
+    &_item {
+      width: 33%;
+      text-align: center;
+      display: grid;
+      grid-template-columns: 1fr;
+      margin-bottom: 40px;
+    }
+    &_link-images {
+      width: 65%;
+      margin: auto;
+    }
+    &_link {
+      width: 100%;
+      color: #47443e;
+    }
+  }
+  .slider-list__list-title{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .slider-list-item{
+    width: 32%;
+    margin-right: 7px;
+    position: relative;
+    margin-bottom: 7px;
+  }
+  .slider-list-garden{
+    display: none;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .slider-list-garden.active{
+    display: block;
+  }
+}
