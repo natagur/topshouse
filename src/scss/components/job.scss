@@ -1,5 +1,5 @@
 .job{
-  background: url("/img/our-work-bg.jpg");
+  background: url("../img/our-work-bg.jpg");
   width: 100%;
   height: 100%;
   background-size: cover;
@@ -21,7 +21,7 @@
   }
   &__right-job{
     width: 53%;
-    // background: url("/img/tape.webp");
+    // background: url("../img/tape.webp");
   }
   .left-block_top{
     color: #bc9959;
@@ -58,11 +58,16 @@
     font-weight: 700;
     opacity: .1;
   }
-  .fa-regular.fa-message{
+  .bi.bi-chat-square,
+  .bi.bi-arrow-clockwise,
+  .bi.bi-briefcase,
+  .bi.bi-telephone-inbound,
+  .bi.bi-house-door,
+  .bi.bi-check2-circle{
     color: #bc9959;
     font-size: 1.875rem;
     position: absolute;
-    top: 43px;
+    top: 31px;
     left: 31px;
   }
   // .left-block-center{

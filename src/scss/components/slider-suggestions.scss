@@ -32,20 +32,20 @@
     cursor: pointer;
   }
   .click-gray.active{
-    height: 11px;
-    width: 11px;
+    height: 13px;
+    width: 13px;
     border-width: 3px;
     background: #bc9959;
     outline-offset: 2px;
     outline: 2px solid #bc9959;
   }
-  .fa-solid.fa-chevron-left{
+  .bi.bi-chevron-left{
     color: #bc9959;
     font-size: 1rem;
     padding-right: 16px;
     cursor: pointer;
   }
-  .fa-solid.fa-chevron-right{
+  .bi.bi-chevron-right{
     color: #bc9959;
     font-size: 1rem;
     cursor: pointer;
@@ -106,6 +106,7 @@
   }
   .suggestions-description-link{
     display: flex;
+    align-items: center;
   }
   .suggestions-item{
     display: flex;
@@ -114,8 +115,12 @@
   .suggestions-item:last-child{
     padding-right: 0;
   }
-  .fa-regular.fa-arrows-up-down-left-right{
+  .bi.bi-arrows-move,
+  .bi.bi-fullscreen,
+  .bi.bi-arrow-up-short{
     padding-right: 5px;
+    color: #bc9959;
+    font-size: 13px;
   }
   .icon-descr{
     font-size: 13px;
@@ -124,7 +129,7 @@
   }
   .suggestions-list-border .suggestions-info{
     padding: 20px;
-    background: url(/img/stroy.jpg);
+    background: url(../img/stroy.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;

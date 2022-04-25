@@ -8,27 +8,246 @@
         <p class="catalog__filter_input-descr">
           Площадь строения (кв.м.)
         </p>
-        <div class="catalog__filter_input-choice">
+
+        <div class="polzunok-container">
+            <input type="text" class="polzunok-input-left" value="2001" min="0" max="6000" />
+            <input type="text" class="polzunok-input-right " value="3001" min="0" max="6000" />
+            <div class="polzunok"></div>
+        </div>
+
+
+        <!-- <div class="catalog__filter_input-choice">
           <div class="catalog__filter_input-left">
             <input type="text" placeholder="0">
           </div>
           <div class="catalog__filter_input-right">
             <input type="text" placeholder="33.7">
           </div>
-        </div>
+          <div class="catalog__filter_slick">
+            <a href="" class="min"></a>
+            <a href="" class="max"></a>
+            <div class="catalog__filter_border"></div>
+          </div>
+        </div> -->
       </div>
       <div class="catalog__filter_input">
         <p class="catalog__filter_input-descr">
           Площадь строения (кв.м.)
         </p>
-        <div class="catalog__filter_input-choice">
-          <div class="catalog__filter_input-left">
-            <input type="text" placeholder="0">
-          </div>
-          <div class="catalog__filter_input-right">
-            <input type="text" placeholder="33.7">
+        <div class="polzunok-container">
+          <input type="text" class="polzunok-input-left" value="2001" min="0" max="33" />
+          <input type="text" class="polzunok-input-right " value="3001" min="0" max="33" />
+          <div class="polzunok"></div>
+        </div>
+      </div>
+      <div class="catalog__filter_select">
+        <p class="catalog__filter_input-descr">
+          Внешние размеры (м)
+        </p>
+        <div class="catalog__filter_select">
+          <select >
+            <option>Все</option>
+            <option>10,6х8,0</option>
+            <option>11,2х11,9</option>
+            <option>11,3х8,2</option>
+            <option>13,7x7,8</option>
+            <option disabled>2,5х2,5</option>
+            <option disabled>3,8x3,8</option>
+            <option disabled>3,8x5,3</option>
+            <option disabled>3,8х4,5</option>
+            <option disabled>3.0x5.0</option>
+            <option disabled>4,0х6,0</option>
+            <option disabled>4,6х5,3</option>
+            <option disabled>5,0х5,7</option>
+            <option disabled>5,0х6,0</option>
+            <option disabled>5,2x8,0</option>
+            <option disabled>5,5x8,0</option>
+            <option disabled>5,5х5,8</option>
+            <option disabled>5,8x8</option>
+            <option disabled>5,9x6</option>
+            <option>5,9x8,1</option>
+            <option disabled>5.5x9.4</option>
+            <option disabled>6,0x4,7</option>
+            <option disabled>6,0x5,8</option>
+            <option disabled>6,0x6,0</option>
+            <option disabled>6,0х4,5</option>
+            <option disabled>6,0х5,0</option>
+            <option disabled>6,0х5,5</option>
+            <option>6,0х6,0</option>
+            <option disabled>6,0х6,9</option>
+            <option disabled>6,0х7,2</option>
+            <option disabled>6,0х7,5</option>
+            <option>6,0х8,0</option>
+            <option disabled>6,0х8,5</option>
+            <option disabled>6,0х9,0</option>
+            <option disabled>6,5x7,7</option>
+            <option disabled>6,5х4,2</option>
+            <option disabled>6.0x9.6</option>
+            <option>7,0х7,0</option>
+            <option>7,2x10,7</option>
+            <option disabled>7,8х4,0</option>
+            <option disabled>8,0x8,0</option>
+            <option disabled>8,0х4,75</option>
+            <option disabled>8,0х6,0</option>
+            <option>8,6х8,5</option>
+            <option disabled>8,9х6,45</option>
+            <option>8,9х8,0</option>
+            <option>9,0х10,8</option>
+            <option>9,3х9,8</option>
+            <option>9,7x7,9</option>
+          </select>
+        </div>
+        <div class="catalog__filter_selecе-list">
+          <div class="catalog__filter_selecе-descr">
+            <p class="option-top"><span>Все</span>
+              <i class="bi bi-caret-down"></i>
+            </p>
+            <p class="option-bottom">Все</p>
+            <p class="option">10,6х8,0</p>
+            <p class="option">11,2х11,9</p>
+            <p class="option">11,3х8,2</p>
+            <p class="option">13,7x7,8</p>
+            <p class="option">2,5х2,5</p>
+            <p class="option">3,8x3,8</p>
+            <p class="option">3,8x5,3</p>
+            <p class="option">3,8х4,5</p>
+            <p class="option">3.0x5.0</p>
+            <p class="option">4,0х6,0</p>
+            <p class="option">4,6х5,3</p>
+            <p class="option">5,0х5,7</p>
+            <p class="option">5,0х6,0</p>
+            <p class="option">5,2x8,0</p>
+            <p class="option">5,5x8,0</p>
+            <p class="option">5,5х5,8</p>
+            <p class="option">5,8x8</p>
+            <p class="option">5,9x6</p>
+            <p class="option">5,9x8,1</p>
+            <p class="option">5.5x9.4</p>
+            <p class="option">6,0x4,7</p>
+            <p class="option">6,0x5,8</p>
+            <p class="option">6,0x6,0</p>
+            <p class="option">6,0х4,5</p>
+            <p class="option">6,0х5,0</p>
+            <p class="option">6,0х5,5</p>
+            <p class="option">6,0х6,0</p>
+            <p class="option">6,0х6,9</p>
+            <p class="option">6,0х7,2</p>
+            <p class="option">6,0х7,5</p>
+            <p class="option">6,0х8,0</p>
+            <p class="option">6,0х8,5</p>
+            <p class="option">6,0х9,0</p>
+            <p class="option">6,5x7,7</p>
+            <p class="option">6,5х4,2</p>
+            <p class="option">6.0x9.6</p>
+            <p class="option">7,0х7,0</p>
+            <p class="option">7,2x10,7</p>
+            <p class="option">7,8х4,0</p>
+            <p class="option">8,0x8,0</p>
+            <p class="option">8,0х4,75</p>
+            <p class="option">8,0х6,0</p>
+            <p class="option">8,6х8,5</p>
+            <p class="option">8,9х6,45</p>
+            <p class="option">8,9х8,0</p>
+            <p class="option">9,0х10,8</p>
+            <p class="option">9,3х9,8</p>
+            <p class="option">9,7x7,9</p>
           </div>
         </div>
+      </div>
+      <div class="catalog__filter_label">
+        <p class="catalog__filter_input-descr">
+          Этажность
+        </p>
+        <input type="checkbox" id="checkbox1">
+        <label for="checkbox1">
+           Один этаж <span class="catalog__filter_label-input">6</span>
+        </label>
+        <input type="checkbox" id="checkbox2">
+        <label for="checkbox2">
+           Два этажа <span class="catalog__filter_label-input">4</span>
+        </label>
+        <input type="checkbox" id="checkbox3">
+        <label for="checkbox3">
+           Дом с мансардой <span class="catalog__filter_label-input">2</span>
+        </label>
+      </div>
+      <div class="catalog__filter_options">
+        <a class="catalog__filter_options_link" href="#">Больше параметров</a>
+      </div>
+      <div class="catalog__filter_hide">
+        <div class="catalog__filter_label">
+          <p class="catalog__filter_input-descr">
+            Опции
+          </p>
+          <input type="checkbox" id="checkbox4">
+          <label for="checkbox4">
+            Балкон <span class="catalog__filter_label-input">1</span>
+          </label>
+          <input type="checkbox" id="checkbox5">
+          <label for="checkbox5">
+            Веранда <span class="catalog__filter_label-input">0</span>
+          </label>
+          <input type="checkbox" id="checkbox6">
+          <label for="checkbox6">
+             Крыльцо <span class="catalog__filter_label-input">6</span>
+          </label>
+          <input type="checkbox" id="checkbox7">
+          <label for="checkbox7">
+            Терраса <span class="catalog__filter_label-input">2</span>
+          </label>
+        </div>
+        <div class="catalog__filter_label">
+          <p class="catalog__filter_input-descr">
+            Планировка
+          </p>
+          <input type="checkbox" id="checkbox8">
+          <label for="checkbox8">
+            Два отдельных входа <span class="catalog__filter_label-input">1</span>
+          </label>
+          <input type="checkbox" id="checkbox9">
+          <label for="checkbox9">
+            Две комната <span class="catalog__filter_label-input">4</span>
+          </label>
+          <input type="checkbox" id="checkbox10">
+          <label for="checkbox10">
+            Одна комната <span class="catalog__filter_label-input">0</span>
+          </label>
+          <input type="checkbox" id="checkbox11">
+          <label for="checkbox11">
+            Санузел <span class="catalog__filter_label-input">6</span>
+          </label>
+          <input type="checkbox" id="checkbox12">
+          <label for="checkbox12">
+           Сауна <span class="catalog__filter_label-input">4</span>
+          </label>
+        </div>
+        <div class="catalog__filter_label">
+          <p class="catalog__filter_input-descr">
+            Категория проекта
+          </p>
+          <input type="checkbox" id="checkbox13">
+          <label for="checkbox13">
+            Популярные проекты  <span class="catalog__filter_label-input">5</span>
+          </label>
+          <input type="checkbox" id="checkbox14">
+          <label for="checkbox14">
+            Уникальные проекты  <span class="catalog__filter_label-input">4</span>
+          </label>
+        </div>
+        <div class="catalog__filter_input">
+          <p class="catalog__filter_input-descr">
+            Стоимость (руб.)
+          </p>
+          <div class="polzunok-container">
+            <input type="text" class="polzunok-input-left" value="2001" min="60390" max="33" />
+            <input type="text" class="polzunok-input-right " value="3001" min="0" max="1898618" />
+            <div class="polzunok"></div>
+          </div>
+        </div>
+      </div>
+      <div class="header__btn_filter-btn">
+        <a href="" class="btn btn_green">Применить фильтры</a>
+        <a href="" class="btn btn_green">Сбросить</a>
       </div>
     </div>
     <div class="catalog__container">
@@ -60,7 +279,8 @@
           </a>
         </div>
         <div class="catalog__container_select">
-          <select name="Выберите сортировку:">
+          <select >
+            <option>Выберите сортировку:</option>
             <option>Сначала новые проекты</option>
             <option>Сначала дороже</option>
             <option>Сначала дешевле</option>
@@ -75,7 +295,7 @@
         <ul class="catalog__container_list">
           <li class="catalog__container_item">
             <a href="#" class="catalog__container_link-images">
-              <img src="/img/catalog-home1.webp">
+              <img src="img/catalog-home1.webp">
             </a>
             <a href="#" class="catalog__container_link">
               Двухэтажные дома из бруса(2)
@@ -83,7 +303,7 @@
           </li>
           <li class="catalog__container_item">
             <a href="#" class="catalog__container_link-images">
-              <img src="/img/catalog-home2.webp">
+              <img src="img/catalog-home2.webp">
             </a>
             <a href="#" class="catalog__container_link">
               Дома из бруса(28)
@@ -91,7 +311,7 @@
           </li>
           <li class="catalog__container_item">
             <a href="#" class="catalog__container_link-images">
-              <img src="/img/catalog-home3.webp">
+              <img src="img/catalog-home3.webp">
             </a>
             <a href="#" class="catalog__container_link">
               Дома эконом-класса(11)
@@ -99,7 +319,7 @@
           </li>
           <li class="catalog__container_item">
             <a href="#" class="catalog__container_link-images">
-              <img src="/img/catalog-home4.webp">
+              <img src="img/catalog-home4.webp">
             </a>
             <a href="#" class="catalog__container_link">
               Одноэтажные дома из бруса(38)
@@ -107,7 +327,7 @@
           </li>
           <li class="catalog__container_item">
             <a href="#" class="catalog__container_link-images">
-              <img src="/img/catalog-home5.webp">
+              <img src="img/catalog-home5.webp">
             </a>
             <a href="#" class="catalog__container_link">
               Разборные дома(11)
@@ -115,7 +335,7 @@
           </li>
           <li class="catalog__container_item">
             <a href="#" class="catalog__container_link-images">
-              <img src="/img/catalog-home6.webp">
+              <img src="img/catalog-home6.webp">
             </a>
             <a href="#" class="catalog__container_link">
               С балконом(1)
@@ -123,7 +343,7 @@
           </li>
           <li class="catalog__container_item">
             <a href="#" class="catalog__container_link-images">
-              <img src="/img/catalog-home7.webp">
+              <img src="img/catalog-home7.webp">
             </a>
             <a href="#" class="catalog__container_link">
               С верандой(2)
@@ -131,7 +351,7 @@
           </li>
           <li class="catalog__container_item">
             <a href="#" class="catalog__container_link-images">
-              <img src="/img/catalog-home8.webp">
+              <img src="img/catalog-home8.webp">
             </a>
             <a href="#" class="catalog__container_link">
               С крыльцом(8)
@@ -139,7 +359,7 @@
           </li>
           <li class="catalog__container_item">
             <a href="#" class="catalog__container_link-images">
-              <img src="/img/catalog-home9.webp">
+              <img src="img/catalog-home9.webp">
             </a>
             <a href="#" class="catalog__container_link">
               С мансардой(3)
@@ -147,7 +367,7 @@
           </li>
           <li class="catalog__container_item">
             <a href="#" class="catalog__container_link-images">
-              <img src="/img/catalog-home10.webp">
+              <img src="img/catalog-home10.webp">
             </a>
             <a href="#" class="catalog__container_link">
               С террасой(5)
@@ -190,16 +410,38 @@
             <img class="slider-list-garden" src="img/catalog4.webp" alt="картинка слайдера">
             <img class="slider-list-garden" src="img/catalog5.webp" alt="картинка слайдера">
             <img class="slider-list-garden" src="img/catalog6.webp" alt="картинка слайдера">
-            <div class="slider-item-block-text">
-              <p class="slider-list-text">
-                Беседки садовые
+            <div class="hit__images">
+              <img src="/img/hit.png">
+            </div>
+            <div class="item_hovered">
+              <img src="/img/item-hovered.png">
+            </div>
+            <div class="suggestions-info">
+              <a href="#" class="suggestions-link">
+                <p>Дачный дом «Добрый вечер»</p>
+              </a>
+              <p class="suggestions-span">
+                538 100 руб.
               </p>
-              <p class="slider-list-description">
-                38 проектов
-                <span class="slider-list-span">
-                  от&nbsp;45 500&nbsp;руб.
-                </span>
-              </p>
+              <div class="suggestions-border"></div>
+              <ul class="suggestions-description-link">
+                <li class="suggestions-item">
+                  <i class="bi bi-arrows-move"></i>
+                  <p class="icon-descr">
+                    3,5×8,0&nbsp;м
+                  </p>
+                </li>
+                <li class="suggestions-item">
+                  <i class="bi bi-fullscreen"></i>
+                  <p class="icon-descr">
+                    28&nbsp;м²
+                  </p>
+                </li>
+              </ul>
+              <div class="header__btn">
+                <a href="" class="btn btn_green">Сравнить</a>
+                <a href="" class="btn btn_green">Заявка в 1 клик</a>
+              </div>
             </div>
           </li>
           <li class="slider-list-item">
@@ -209,16 +451,38 @@
             <img class="slider-list-garden" src="img/catalog4.webp" alt="картинка слайдера">
             <img class="slider-list-garden" src="img/catalog5.webp" alt="картинка слайдера">
             <img class="slider-list-garden" src="img/catalog6.webp" alt="картинка слайдера">
-            <div class="slider-item-block-text">
-              <p class="slider-list-text">
-                Взломостойкие хозблоки СКАЛА
+            <div class="hit__images">
+              <img src="/img/hit.png">
+            </div>
+            <div class="item_hovered">
+              <img src="/img/item-hovered.png">
+            </div>
+            <div class="suggestions-info">
+              <a href="#" class="suggestions-link">
+                <p>Дачный дом «Добрый вечер»</p>
+              </a>
+              <p class="suggestions-span">
+                538 100 руб.
               </p>
-              <p class="slider-list-description">
-                6 проектов
-                <span class="slider-list-span">
-                  от&nbsp;100 150&nbsp;руб.
-                </span>
-              </p>
+              <div class="suggestions-border"></div>
+              <ul class="suggestions-description-link">
+                <li class="suggestions-item">
+                  <i class="bi bi-arrows-move"></i>
+                  <p class="icon-descr">
+                    3,5×8,0&nbsp;м
+                  </p>
+                </li>
+                <li class="suggestions-item">
+                  <i class="bi bi-fullscreen"></i>
+                  <p class="icon-descr">
+                    28&nbsp;м²
+                  </p>
+                </li>
+              </ul>
+              <div class="header__btn">
+                <a href="" class="btn btn_green">Сравнить</a>
+                <a href="" class="btn btn_green">Заявка в 1 клик</a>
+              </div>
             </div>
           </li>
           <li class="slider-list-item">
@@ -228,16 +492,38 @@
             <img class="slider-list-garden" src="img/catalog4.webp" alt="картинка слайдера">
             <img class="slider-list-garden active" src="img/catalog5.webp" alt="картинка слайдера">
             <img class="slider-list-garden" src="img/catalog6.webp" alt="картинка слайдера">
-            <div class="slider-item-block-text">
-              <p class="slider-list-text">
-                Гаражи из&nbsp;бруса
+            <div class="hit__images">
+              <img src="/img/hit.png">
+            </div>
+            <div class="item_hovered">
+              <img src="/img/item-hovered.png">
+            </div>
+            <div class="suggestions-info">
+              <a href="#" class="suggestions-link">
+                <p>Дачный дом «Добрый вечер»</p>
+              </a>
+              <p class="suggestions-span">
+                538 100 руб.
               </p>
-              <p class="slider-list-description">
-                16 проектов
-                <span class="slider-list-span">
-                  от&nbsp;189 150&nbsp;руб.
-                </span>
-              </p>
+              <div class="suggestions-border"></div>
+              <ul class="suggestions-description-link">
+                <li class="suggestions-item">
+                  <i class="bi bi-arrows-move"></i>
+                  <p class="icon-descr">
+                    3,5×8,0&nbsp;м
+                  </p>
+                </li>
+                <li class="suggestions-item">
+                  <i class="bi bi-fullscreen"></i>
+                  <p class="icon-descr">
+                    28&nbsp;м²
+                  </p>
+                </li>
+              </ul>
+              <div class="header__btn">
+                <a href="" class="btn btn_green">Сравнить</a>
+                <a href="" class="btn btn_green">Заявка в 1 клик</a>
+              </div>
             </div>
           </li>
           <li class="slider-list-item">
@@ -247,16 +533,38 @@
             <img class="slider-list-garden" src="img/catalog4.webp" alt="картинка слайдера">
             <img class="slider-list-garden" src="img/catalog5.webp" alt="картинка слайдера">
             <img class="slider-list-garden" src="img/catalog6.webp" alt="картинка слайдера">
-            <div class="slider-item-block-text">
-              <p class="slider-list-text">
-                Мобильные бани
+            <div class="hit__images">
+              <img src="/img/hit.png">
+            </div>
+            <div class="item_hovered">
+              <img src="/img/item-hovered.png">
+            </div>
+            <div class="suggestions-info">
+              <a href="#" class="suggestions-link">
+                <p>Дачный дом «Добрый вечер»</p>
+              </a>
+              <p class="suggestions-span">
+                538 100 руб.
               </p>
-              <p class="slider-list-description">
-                8 проектов
-                <span class="slider-list-span">
-                  от&nbsp;264 950&nbsp;руб.
-                </span>
-              </p>
+              <div class="suggestions-border"></div>
+              <ul class="suggestions-description-link">
+                <li class="suggestions-item">
+                  <i class="bi bi-arrows-move"></i>
+                  <p class="icon-descr">
+                    3,5×8,0&nbsp;м
+                  </p>
+                </li>
+                <li class="suggestions-item">
+                  <i class="bi bi-fullscreen"></i>
+                  <p class="icon-descr">
+                    28&nbsp;м²
+                  </p>
+                </li>
+              </ul>
+              <div class="header__btn">
+                <a href="" class="btn btn_green">Сравнить</a>
+                <a href="" class="btn btn_green">Заявка в 1 клик</a>
+              </div>
             </div>
           </li>
           <li class="slider-list-item">
@@ -266,16 +574,38 @@
             <img class="slider-list-garden" src="img/catalog4.webp" alt="картинка слайдера">
             <img class="slider-list-garden" src="img/catalog5.webp" alt="картинка слайдера">
             <img class="slider-list-garden" src="img/catalog6.webp" alt="картинка слайдера">
-            <div class="slider-item-block-text">
-              <p class="slider-list-text">
-                Вольеры для собак
+            <div class="hit__images">
+              <img src="/img/hit.png">
+            </div>
+            <div class="item_hovered">
+              <img src="/img/item-hovered.png">
+            </div>
+            <div class="suggestions-info">
+              <a href="#" class="suggestions-link">
+                <p>Дачный дом «Добрый вечер»</p>
+              </a>
+              <p class="suggestions-span">
+                538 100 руб.
               </p>
-              <p class="slider-list-description">
-                6 проектов
-                <span class="slider-list-span">
-                  от&nbsp;22 550&nbsp;руб.
-                </span>
-              </p>
+              <div class="suggestions-border"></div>
+              <ul class="suggestions-description-link">
+                <li class="suggestions-item">
+                  <i class="bi bi-arrows-move"></i>
+                  <p class="icon-descr">
+                    3,5×8,0&nbsp;м
+                  </p>
+                </li>
+                <li class="suggestions-item">
+                  <i class="bi bi-fullscreen"></i>
+                  <p class="icon-descr">
+                    28&nbsp;м²
+                  </p>
+                </li>
+              </ul>
+              <div class="header__btn">
+                <a href="" class="btn btn_green">Сравнить</a>
+                <a href="" class="btn btn_green">Заявка в 1 клик</a>
+              </div>
             </div>
           </li>
           <li class="slider-list-item">
@@ -284,16 +614,38 @@
             <img class="slider-list-garden" src="img/catalog3.webp" alt="картинка слайдера">
             <img class="slider-list-garden" src="img/catalog4.webp" alt="картинка слайдера">
             <img class="slider-list-garden active" src="img/catalog5.webp" alt="картинка слайдера">
-            <div class="slider-item-block-text">
-              <p class="slider-list-text">
-                Хозблоки с&nbsp;туалетом и&nbsp;душем
+            <div class="hit__images">
+              <img src="/img/hit.png">
+            </div>
+            <div class="item_hovered">
+              <img src="/img/item-hovered.png">
+            </div>
+            <div class="suggestions-info">
+              <a href="#" class="suggestions-link">
+                <p>Дачный дом «Добрый вечер»</p>
+              </a>
+              <p class="suggestions-span">
+                538 100 руб.
               </p>
-              <p class="slider-list-description">
-                5 проектов
-                <span class="slider-list-span">
-                  от&nbsp;123 300&nbsp;руб.
-                </span>
-              </p>
+              <div class="suggestions-border"></div>
+              <ul class="suggestions-description-link">
+                <li class="suggestions-item">
+                  <i class="bi bi-arrows-move"></i>
+                  <p class="icon-descr">
+                    3,5×8,0&nbsp;м
+                  </p>
+                </li>
+                <li class="suggestions-item">
+                  <i class="bi bi-fullscreen"></i>
+                  <p class="icon-descr">
+                    28&nbsp;м²
+                  </p>
+                </li>
+              </ul>
+              <div class="header__btn">
+                <a href="" class="btn btn_green">Сравнить</a>
+                <a href="" class="btn btn_green">Заявка в 1 клик</a>
+              </div>
             </div>
           </li>
           <li class="slider-list-item">
@@ -303,16 +655,38 @@
             <img class="slider-list-garden" src="img/catalog4.webp" alt="картинка слайдера">
             <img class="slider-list-garden" src="img/catalog5.webp" alt="картинка слайдера">
             <img class="slider-list-garden" src="img/catalog6.webp" alt="картинка слайдера">
-             <div class="slider-item-block-text">
-              <p class="slider-list-text">
-                Дачные дома
+            <div class="hit__images">
+              <img src="/img/hit.png">
+            </div>
+            <div class="item_hovered">
+              <img src="/img/item-hovered.png">
+            </div>
+            <div class="suggestions-info">
+              <a href="#" class="suggestions-link">
+                <p>Дачный дом «Добрый вечер»</p>
+              </a>
+              <p class="suggestions-span">
+                538 100 руб.
               </p>
-              <p class="slider-list-description">
-                60 проектов
-                <span class="slider-list-span">
-                  от&nbsp;107 150&nbsp;руб.
-                </span>
-              </p>
+              <div class="suggestions-border"></div>
+              <ul class="suggestions-description-link">
+                <li class="suggestions-item">
+                  <i class="bi bi-arrows-move"></i>
+                  <p class="icon-descr">
+                    3,5×8,0&nbsp;м
+                  </p>
+                </li>
+                <li class="suggestions-item">
+                  <i class="bi bi-fullscreen"></i>
+                  <p class="icon-descr">
+                    28&nbsp;м²
+                  </p>
+                </li>
+              </ul>
+              <div class="header__btn">
+                <a href="" class="btn btn_green">Сравнить</a>
+                <a href="" class="btn btn_green">Заявка в 1 клик</a>
+              </div>
             </div>
           </li>
           <li class="slider-list-item">
@@ -322,16 +696,38 @@
             <img class="slider-list-garden" src="img/catalog4.webp" alt="картинка слайдера">
             <img class="slider-list-garden" src="img/catalog5.webp" alt="картинка слайдера">
             <img class="slider-list-garden" src="img/catalog6.webp" alt="картинка слайдера">
-            <div class="slider-item-block-text">
-              <p class="slider-list-text">
-                Теплые дома
+            <div class="hit__images">
+              <img src="/img/hit.png">
+            </div>
+            <div class="item_hovered">
+              <img src="/img/item-hovered.png">
+            </div>
+            <div class="suggestions-info">
+              <a href="#" class="suggestions-link">
+                <p>Дачный дом «Добрый вечер»</p>
+              </a>
+              <p class="suggestions-span">
+                538 100 руб.
               </p>
-              <p class="slider-list-description">
-                51 проектов
-                <span class="slider-list-span">
-                  от&nbsp;773 550&nbsp;руб.
-                </span>
-              </p>
+              <div class="suggestions-border"></div>
+              <ul class="suggestions-description-link">
+                <li class="suggestions-item">
+                  <i class="bi bi-arrows-move"></i>
+                  <p class="icon-descr">
+                    3,5×8,0&nbsp;м
+                  </p>
+                </li>
+                <li class="suggestions-item">
+                  <i class="bi bi-fullscreen"></i>
+                  <p class="icon-descr">
+                    28&nbsp;м²
+                  </p>
+                </li>
+              </ul>
+              <div class="header__btn">
+                <a href="" class="btn btn_green">Сравнить</a>
+                <a href="" class="btn btn_green">Заявка в 1 клик</a>
+              </div>
             </div>
           </li>
           <li class="slider-list-item">
@@ -341,16 +737,38 @@
             <img class="slider-list-garden" src="img/catalog4.webp" alt="картинка слайдера">
             <img class="slider-list-garden" src="img/catalog5.webp" alt="картинка слайдера">
             <img class="slider-list-garden" src="img/catalog6.webp" alt="картинка слайдера">
-            <div class="slider-item-block-text">
-              <p class="slider-list-text">
-                Бани из&nbsp;бруса
+            <div class="hit__images">
+              <img src="/img/hit.png">
+            </div>
+            <div class="item_hovered">
+              <img src="/img/item-hovered.png">
+            </div>
+            <div class="suggestions-info">
+              <a href="#" class="suggestions-link">
+                <p>Дачный дом «Добрый вечер»</p>
+              </a>
+              <p class="suggestions-span">
+                538 100 руб.
               </p>
-              <p class="slider-list-description">
-                20 проектов
-                <span class="slider-list-span">
-                  от&nbsp;159 650&nbsp;руб.
-                </span>
-              </p>
+              <div class="suggestions-border"></div>
+              <ul class="suggestions-description-link">
+                <li class="suggestions-item">
+                  <i class="bi bi-arrows-move"></i>
+                  <p class="icon-descr">
+                    3,5×8,0&nbsp;м
+                  </p>
+                </li>
+                <li class="suggestions-item">
+                  <i class="bi bi-fullscreen"></i>
+                  <p class="icon-descr">
+                    28&nbsp;м²
+                  </p>
+                </li>
+              </ul>
+              <div class="header__btn">
+                <a href="" class="btn btn_green">Сравнить</a>
+                <a href="" class="btn btn_green">Заявка в 1 клик</a>
+              </div>
             </div>
           </li>
           <li class="slider-list-item">
@@ -360,16 +778,38 @@
             <img class="slider-list-garden" src="img/catalog4.webp" alt="картинка слайдера">
             <img class="slider-list-garden" src="img/catalog5.webp" alt="картинка слайдера">
             <img class="slider-list-garden" src="img/catalog6.webp" alt="картинка слайдера">
-            <div class="slider-item-block-text">
-              <p class="slider-list-text">
-                Садовые домики
+            <div class="hit__images">
+              <img src="/img/hit.png">
+            </div>
+            <div class="item_hovered">
+              <img src="/img/item-hovered.png">
+            </div>
+            <div class="suggestions-info">
+              <a href="#" class="suggestions-link">
+                <p>Дачный дом «Добрый вечер»</p>
+              </a>
+              <p class="suggestions-span">
+                538 100 руб.
               </p>
-              <p class="slider-list-description">
-                43 проектов
-                <span class="slider-list-span">
-                  от&nbsp;99 700&nbsp;руб.
-                </span>
-              </p>
+              <div class="suggestions-border"></div>
+              <ul class="suggestions-description-link">
+                <li class="suggestions-item">
+                  <i class="bi bi-arrows-move"></i>
+                  <p class="icon-descr">
+                    3,5×8,0&nbsp;м
+                  </p>
+                </li>
+                <li class="suggestions-item">
+                  <i class="bi bi-fullscreen"></i>
+                  <p class="icon-descr">
+                    28&nbsp;м²
+                  </p>
+                </li>
+              </ul>
+              <div class="header__btn">
+                <a href="" class="btn btn_green">Сравнить</a>
+                <a href="" class="btn btn_green">Заявка в 1 клик</a>
+              </div>
             </div>
           </li>
           <li class="slider-list-item">
@@ -379,16 +819,38 @@
             <img class="slider-list-garden" src="img/catalog4.webp" alt="картинка слайдера">
             <img class="slider-list-garden" src="img/catalog5.webp" alt="картинка слайдера">
             <img class="slider-list-garden" src="imgcatalog6.webp" alt="картинка слайдера">
-            <div class="slider-item-block-text">
-              <p class="slider-list-text">
-                Хозблоки для дачи
+            <div class="hit__images">
+              <img src="/img/hit.png">
+            </div>
+            <div class="item_hovered">
+              <img src="/img/item-hovered.png">
+            </div>
+            <div class="suggestions-info">
+              <a href="#" class="suggestions-link">
+                <p>Дачный дом «Добрый вечер»</p>
+              </a>
+              <p class="suggestions-span">
+                538 100 руб.
               </p>
-              <p class="slider-list-description">
-                48 проектов
-                <span class="slider-list-span">
-                  от&nbsp;22 550&nbsp;руб.
-                </span>
-              </p>
+              <div class="suggestions-border"></div>
+              <ul class="suggestions-description-link">
+                <li class="suggestions-item">
+                  <i class="bi bi-arrows-move"></i>
+                  <p class="icon-descr">
+                    3,5×8,0&nbsp;м
+                  </p>
+                </li>
+                <li class="suggestions-item">
+                  <i class="bi bi-fullscreen"></i>
+                  <p class="icon-descr">
+                    28&nbsp;м²
+                  </p>
+                </li>
+              </ul>
+              <div class="header__btn">
+                <a href="" class="btn btn_green">Сравнить</a>
+                <a href="" class="btn btn_green">Заявка в 1 клик</a>
+              </div>
             </div>
           </li>
           <li class="slider-list-item">
@@ -398,16 +860,38 @@
             <img class="slider-list-garden" src="img/catalog4.webp" alt="картинка слайдера">
             <img class="slider-list-garden" src="img/catalog5.webp" alt="картинка слайдера">
             <img class="slider-list-garden active" src="img/catalog6.webp" alt="картинка слайдера">
-            <div class="slider-item-block-text">
-              <p class="slider-list-text">
-                Бытовки дачные
+            <div class="hit__images">
+              <img src="/img/hit.png">
+            </div>
+            <div class="item_hovered">
+              <img src="/img/item-hovered.png">
+            </div>
+            <div class="suggestions-info">
+              <a href="#" class="suggestions-link">
+                <p>Дачный дом «Добрый вечер»</p>
+              </a>
+              <p class="suggestions-span">
+                538 100 руб.
               </p>
-              <p class="slider-list-description">
-                9 проектов
-                <span class="slider-list-span">
-                  от&nbsp;56 600&nbsp;руб.
-                </span>
-              </p>
+              <div class="suggestions-border"></div>
+              <ul class="suggestions-description-link">
+                <li class="suggestions-item">
+                  <i class="bi bi-arrows-move"></i>
+                  <p class="icon-descr">
+                    3,5×8,0&nbsp;м
+                  </p>
+                </li>
+                <li class="suggestions-item">
+                  <i class="bi bi-fullscreen"></i>
+                  <p class="icon-descr">
+                    28&nbsp;м²
+                  </p>
+                </li>
+              </ul>
+              <div class="header__btn">
+                <a href="" class="btn btn_green">Сравнить</a>
+                <a href="" class="btn btn_green">Заявка в 1 клик</a>
+              </div>
             </div>
           </li>
           <li class="slider-list-item">
@@ -417,16 +901,38 @@
             <img class="slider-list-garden" src="img/catalog4.webp" alt="картинка слайдера">
             <img class="slider-list-garden" src="img/catalog5.webp" alt="картинка слайдера">
             <img class="slider-list-garden" src="img/catalog6.webp" alt="картинка слайдера">
-            <div class="slider-item-block-text">
-              <p class="slider-list-text">
-                Детские домики
+            <div class="hit__images">
+              <img src="/img/hit.png">
+            </div>
+            <div class="item_hovered">
+              <img src="/img/item-hovered.png">
+            </div>
+            <div class="suggestions-info">
+              <a href="#" class="suggestions-link">
+                <p>Дачный дом «Добрый вечер»</p>
+              </a>
+              <p class="suggestions-span">
+                538 100 руб.
               </p>
-              <p class="slider-list-description">
-                8 проектов
-                <span class="slider-list-span">
-                  от&nbsp;38 850&nbsp;руб.
-                </span>
-              </p>
+              <div class="suggestions-border"></div>
+              <ul class="suggestions-description-link">
+                <li class="suggestions-item">
+                  <i class="bi bi-arrows-move"></i>
+                  <p class="icon-descr">
+                    3,5×8,0&nbsp;м
+                  </p>
+                </li>
+                <li class="suggestions-item">
+                  <i class="bi bi-fullscreen"></i>
+                  <p class="icon-descr">
+                    28&nbsp;м²
+                  </p>
+                </li>
+              </ul>
+              <div class="header__btn">
+                <a href="" class="btn btn_green">Сравнить</a>
+                <a href="" class="btn btn_green">Заявка в 1 клик</a>
+              </div>
             </div>
           </li>
           <li class="slider-list-item">
@@ -436,16 +942,38 @@
             <img class="slider-list-garden" src="img/catalog4.webp" alt="картинка слайдера">
             <img class="slider-list-garden" src="img/catalog5.webp" alt="картинка слайдера">
             <img class="slider-list-garden" src="img/catalog6.webp" alt="картинка слайдера">
-            <div class="slider-item-block-text">
-              <p class="slider-list-text">
-                Гостевые домики
+            <div class="hit__images">
+              <img src="/img/hit.png">
+            </div>
+            <div class="item_hovered">
+              <img src="/img/item-hovered.png">
+            </div>
+            <div class="suggestions-info">
+              <a href="#" class="suggestions-link">
+                <p>Дачный дом «Добрый вечер»</p>
+              </a>
+              <p class="suggestions-span">
+                538 100 руб.
               </p>
-              <p class="slider-list-description">
-                38 проектов
-                <span class="slider-list-span">
-                  от&nbsp;219 200&nbsp;руб.
-                </span>
-              </p>
+              <div class="suggestions-border"></div>
+              <ul class="suggestions-description-link">
+                <li class="suggestions-item">
+                  <i class="bi bi-arrows-move"></i>
+                  <p class="icon-descr">
+                    3,5×8,0&nbsp;м
+                  </p>
+                </li>
+                <li class="suggestions-item">
+                  <i class="bi bi-fullscreen"></i>
+                  <p class="icon-descr">
+                    28&nbsp;м²
+                  </p>
+                </li>
+              </ul>
+              <div class="header__btn">
+                <a href="" class="btn btn_green">Сравнить</a>
+                <a href="" class="btn btn_green">Заявка в 1 клик</a>
+              </div>
             </div>
           </li>
           <li class="slider-list-item">
@@ -455,21 +983,43 @@
             <img class="slider-list-garden active" src="img/catalog4.webp" alt="картинка слайдера">
             <img class="slider-list-garden" src="img/catalog5.webp" alt="картинка слайдера">
             <img class="slider-list-garden" src="img/catalog6.webp" alt="картинка слайдера">
-            <div class="slider-item-block-text">
-              <p class="slider-list-text">
-                Деревянные навесы для автомобилей
+            <div class="hit__images">
+              <img src="/img/hit.png">
+            </div>
+            <div class="item_hovered">
+              <img src="/img/item-hovered.png">
+            </div>
+            <div class="suggestions-info">
+              <a href="#" class="suggestions-link">
+                <p>Дачный дом «Добрый вечер»</p>
+              </a>
+              <p class="suggestions-span">
+                538 100 руб.
               </p>
-              <p class="slider-list-description">
-                6 проектов
-                <span class="slider-list-span">
-                  от&nbsp;193 200&nbsp;руб.
-                </span>
-              </p>
+              <div class="suggestions-border"></div>
+              <ul class="suggestions-description-link">
+                <li class="suggestions-item">
+                  <i class="bi bi-arrows-move"></i>
+                  <p class="icon-descr">
+                    3,5×8,0&nbsp;м
+                  </p>
+                </li>
+                <li class="suggestions-item">
+                  <i class="bi bi-fullscreen"></i>
+                  <p class="icon-descr">
+                    28&nbsp;м²
+                  </p>
+                </li>
+              </ul>
+              <div class="header__btn">
+                <a href="" class="btn btn_green">Сравнить</a>
+                <a href="" class="btn btn_green">Заявка в 1 клик</a>
+              </div>
             </div>
           </li>
         </ul>
       </div>
-      <div class="catalog__container_button header__btn">
+      <div class="catalog__container_button header__btn-bottom">
         <a href="" class="btn btn_green">Показать ещё</a>
       </div>
       <div class="catalog__container_pages">
@@ -477,6 +1027,7 @@
         <a href="#" class="catalog__container_pages-link">2</a>
         <a href="#" class="catalog__container_pages-link">3</a>
         <a href="#" class="catalog__container_pages-link">4</a>
+        <a href="#" class="catalog__container_pages-link">»</a>
       </div>
       <div class="catalog__container_info-bottom">
         <p class="catalog__container_info-descr">
@@ -486,19 +1037,19 @@
           Существуют и другие причины заказать дачные дома:
         </h3>
         <ul class="catalog__container_info-list">
-          <li class="catalog__container_info-list">
+          <li class="catalog__container_info-item">
             Экономия времени. Готовый домокомплект доставляют и устанавливают на участке в течение 1 дня.
           </li>
-          <li class="catalog__container_info-list">
+          <li class="catalog__container_info-item">
             Отсутствие необходимости привлекать спецтехнику.
           </li>
-          <li class="catalog__container_info-list">
+          <li class="catalog__container_info-item">
             Гарантированное качество пиломатериалов, обеспечивающее долговечность, надежность, безопасность строения.
           </li>
-          <li class="catalog__container_info-list">
+          <li class="catalog__container_info-item">
             Широкий выбор стандартных проектов, по которым уже построен не один дачный домик.
           </li>
-          <li class="catalog__container_info-list">
+          <li class="catalog__container_info-item">
             Эстетическая привлекательность строений. Натуральный брус не требует дополнительной декоративной отделки, так как выглядит красиво за счет естественного рисунка и фактуры.
           </li>
         </ul>
@@ -506,19 +1057,19 @@
           На странице сайта компании «ТопсХаус» представлены проекты для современных уютных загородных домов:
         </h3>
         <ul class="catalog__container_info-list">
-          <li class="catalog__container_info-list">
+          <li class="catalog__container_info-item">
             <a href="#" class="catalog__container_info-link">одноэтажные строения</a>
           </li>
-          <li class="catalog__container_info-list">
+          <li class="catalog__container_info-item">
             <a href="#" class="catalog__container_info-link">постройки</a> с террасами, верандами, мансардами;
           </li>
-          <li class="catalog__container_info-list">
+          <li class="catalog__container_info-item">
             здания с <a href="#" class="catalog__container_info-link">хозяйственными пристройками</a>
           </li>
         </ul>
         <p class="catalog__container_info-descr">
           Чтобы получить консультацию или оформить заказ на строительство дачных домов из бруса под ключ, звоните по телефону, оставляйте заявку на электронной почте
-          <a href="mailto:dom@topshouse.ru" class="catalog__container_info-link"></a>>dom@topshouse.ru</a>
+          <a href="mailto:dom@topshouse.ru" class="catalog__container_info-link">dom@topshouse.ru</a>
         </p>
       </div>
     </div>

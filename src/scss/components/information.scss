@@ -1,5 +1,5 @@
 .information{
-  background: url(/img/our-work-bg.jpg);
+  background: url(../img/our-work-bg.jpg);
   padding-bottom: 45px;
   padding-top: 70px;
   .section__information_title{
@@ -29,7 +29,7 @@
     &:before{
       content: "";
       padding-right: 29px;
-      background: url(/img/marker.png);
+      background: url(../img/marker.png);
       background-repeat: no-repeat;
       background-position-y: center;
     }

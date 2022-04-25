@@ -165,6 +165,9 @@
       position: absolute;
       top: 10px;
       right: 20px;
+      .bi.bi-x{
+        font-size: 23px;
+      }
     }
     &__list{
       border-top: 1px solid #ebebeb;
@@ -183,7 +186,7 @@
         position: relative;
         &::after{
           content: '';
-          background: url(/img/check.png);
+          background: url(../img/check.png);
           background-repeat: no-repeat;
           width: 14px;
           height: 14px;

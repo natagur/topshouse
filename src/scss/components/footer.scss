@@ -1,5 +1,5 @@
 .footer{
-  background: url(/img/footer_bg.jpg);
+  background: url(../img/footer_bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 46px;
@@ -30,7 +30,7 @@
     flex-direction: column;
     padding-bottom: 20px;
   }
-  .fa.fa-phone{
+  .bi.bi-telephone{
     color: #a0cf11;
     font-size: 22px;
     position: absolute;
@@ -48,11 +48,11 @@
   &__social_item{
     padding-bottom: 10px;
   }
-  .fa-regular.fa-envelope,
-  .fa-brands.fa-whatsapp,
-  .fa-regular.fa-paper-plane,
+  .bi.bi-envelope,
+  .bi.bi-whatsapp,
+  .bi.bi-telegram,
   .fa-brands.fa-viber,
-  .fa-brands.fa-youtube,
+  .bi.bi-youtube,
   .fa-brands.fa-yandex{
     color: #a0cf11;
     font-size: 24px;
@@ -142,5 +142,26 @@
     .fa.fa-phone{
       left: 46px;
     }
+  }
+}
+.popup-up{
+  display: none;
+  position: fixed;
+  right: 0;
+  top: 50%;
+  background: rgba(44,44,40,.4);
+  border-radius: 4px 0 0 4px;
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  cursor: pointer;
+  .bi.bi-caret-up{
+    color: #fff;
+    margin: auto;
+  }
+  p{
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
   }
 }

@@ -300,9 +300,9 @@ const rewrite = () => {
 
 const htmlMinify = () => {
   return src(`${buildFolder}/**/*.html`)
-    .pipe(htmlmin({
-      collapseWhitespace: true
-    }))
+    // .pipe(htmlmin({
+    //   collapseWhitespace: true
+    // }))
     .pipe(dest(buildFolder));
 }
 

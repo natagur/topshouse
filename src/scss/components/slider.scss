@@ -52,8 +52,8 @@
     outline-offset: 2px;
     outline: 2px solid #bc9959;
   }
-  .fa-solid.fa-chevron-left,
-  .fa-solid.fa-chevron-right{
+  .bi.bi-chevron-left,
+  .bi.bi-chevron-right{
     color: hsla(39,64%,70%,.5);
     height: 80px;
     text-shadow: 0 6px 8px rgb(0 0 0 / 35%);
@@ -62,10 +62,10 @@
     top: 44%;
     position: absolute;
   }
-  .fa-solid.fa-chevron-left{
+  .bi.bi-chevron-left{
     left: 27px;
   }
-  .fa-solid.fa-chevron-right{
+  .bi.bi-chevron-right{
     right: 27px;
   }
   &__description-bottom{
@@ -81,12 +81,12 @@
   .list-slider:last-child{
     padding-right: 0;
   }
-  .fa-regular.fa-clock,
-  .fa-regular.fa-thumbs-up,
-  .fa-thin.fa-wrench,
-  .fa-regular.fa-layer-group,
-  .fa-regular.fa-pen-to-square,
-  .fa-regular.fa-anchor{
+  .bi.bi-clock,
+  .bi.bi-hand-thumbs-up,
+  .bi.bi-wrench-adjustable,
+  .bi.bi-stack,
+  .bi.bi-pencil-square,
+  .bi.bi-link-45deg{
     color: #a0cf11;
     font-size: 30px;
     padding-right: 7px;

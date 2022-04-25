@@ -1,5 +1,5 @@
 .credit{
-  background: url(/img/offers-bg.jpg);
+  background: url(../img/offers-bg.jpg);
   background-repeat: no-repeat;
   &__center{
     display: flex;
@@ -12,8 +12,8 @@
   &__right{
     display: flex;
   }
-  .fa-regular.fa-piggy-bank,
-  .fa-regular.fa-baby{
+  .bi.bi-piggy-bank,
+  .bi.bi-person{
     color: #bc9959;
     font-size: 46px;
     margin: auto;
