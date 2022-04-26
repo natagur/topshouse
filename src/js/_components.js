@@ -324,5 +324,22 @@ $(document).on ('click', '.geography__left_link', function(event){
 
   event.preventDefault();
 });
+$('.your-class2').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  fade: true,
+  asNavFor: '.your-class'
+});
+$('.your-class').slick({
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  asNavFor: '.your-class2',
+  dots: false,
+  centerMode: true,
+  focusOnSelect: true,
+  vertical: true,
+});
 
 });
+
