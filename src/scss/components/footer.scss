@@ -165,3 +165,20 @@
     text-align: center;
   }
 }
+@media (max-width:800px){
+  footer {
+    .footer_top {
+      flex-flow: wrap;
+      display: flex;
+    }
+    .footer__list {
+      width: 50%;
+    }
+    &__connection{
+      // grid-column: 1 / 4;
+    }
+    .bi.bi-telephone {
+      margin-left: -95px !important;
+    }
+  }
+}

@@ -55,3 +55,33 @@
     }
   }
 }
+@media (max-width:800px){
+  .credit {
+    background-size: 600% 100%;
+    .bi.bi-piggy-bank,
+    .bi.bi-person{
+      display: none;
+    }
+    .credit__center{
+      display: block;
+      padding: 20px;
+    }
+    .credit__left{
+      margin-bottom: 10px;
+    }
+    .credit__left,
+    .credit__right {
+      display: block;
+    }
+    .btn{
+      max-width: 100%;
+      width: 100%;
+    }
+    .credit_white {
+      color: #fff;
+      font-size: 24px;
+      font-weight: 900;
+      padding-bottom: 10px;
+    }
+  }
+}
