@@ -180,5 +180,15 @@
     .bi.bi-telephone {
       margin-left: -95px !important;
     }
+    &_bottom {
+      display: block;
+      width: 100%;
+    }
+    &__bottom_small {
+      width: 100%;
+    }
+    &__bottom_social{
+      width: 100%;
+    }
   }
 }

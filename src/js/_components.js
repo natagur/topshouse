@@ -402,7 +402,23 @@ $(document).on ('click', '.product__general_options_foundation_choice', function
   event.preventDefault();
 });
 
+// label//
 
+$(document).on ('click', '.product label', function(event){
+
+  $ ('.product input[type=checkbox]#' +  $(this).attr ('for')) .attr('checked', ! $ ('.product input[type=checkbox]#' +  $(this).attr ('for')) .attr('checked'));
+  calcPrise();
+  event.preventDefault();
+});
+
+function calcPrise (){
+  $('.product__description_right .product__general_options_foundation').hide();
+  $.each($('.product__description_right input[type=checkbox]:checked'),function(i,e){
+
+    $(e).parents('.product__general_options_foundation').show();
+
+  });
+}
 
 });
 

@@ -1,0 +1,59 @@
+.catalog.main-catalog-descr{
+  .catalog__container_info-title-block{
+    color: #68655e;
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+  .suggestions-list.suggestions-list-border{
+    margin-left: 45px;
+    float: right;
+    outline: 10px solid #bc9959;
+    outline-offset: -10px;
+    width: 316px;
+    height: 400px;
+    margin-right: 25px;
+    margin-bottom: 40px;
+    background: #fff;
+    .suggestions-info{
+      padding: 20px;
+      background: url(../img/stroy.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 100%;
+    }
+    .suggestions-des{
+      font-size: 20px;
+      color: #bc9959;
+      font-weight: 500;
+      padding-bottom: 10px;
+    }
+    .suggestions-info-descr{
+      font-size: 30px;
+      line-height: 34px;
+      padding-bottom: 15px;
+      font-style: italic;
+      font-weight: 700;
+      color: #2c2c28;
+    }
+    .header__btn{
+      .btn_brown {
+        background: #b38d48;
+        color: #fff;
+        border: 1px solid transparent;
+        border-radius: 3px;
+        color: #fff;
+        padding: 15px 20px;
+        text-transform: uppercase;
+        font-size: 13px;
+      }
+    }
+
+    .slider-suggestions .suggestions-backgraund {
+      margin-bottom: 25px;
+      position: relative;
+      height: 190px;
+      overflow: hidden;
+    }
+  }
+}
