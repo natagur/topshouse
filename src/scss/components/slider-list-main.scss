@@ -1,3 +1,8 @@
 .slider-list.main-catalog{
   margin-bottom: 0;
 }
+@media (max-width:1320px){
+  .catalog__container_info-bottom{
+    padding: 20px;
+  }
+}

@@ -331,8 +331,16 @@ $('.your-class2').slick({
   fade: true,
   asNavFor: '.your-class'
 });
+
+let sliderList = 5;
+if($(document).width() < 480){
+  sliderList = 1;
+}else if($(document).width() > 480){
+  sliderList = 5;
+}
+console.log(sliderList);
 $('.your-class').slick({
-  slidesToShow: 5,
+  slidesToShow: sliderList,
   slidesToScroll: 1,
   asNavFor: '.your-class2',
   dots: false,
@@ -404,21 +412,30 @@ $(document).on ('click', '.product__general_options_foundation_choice', function
 
 // label//
 
-$(document).on ('click', '.product label', function(event){
+$(document).on ('click', '.product input[type=checkbox] + label ', function(event){
 
   $ ('.product input[type=checkbox]#' +  $(this).attr ('for')) .attr('checked', ! $ ('.product input[type=checkbox]#' +  $(this).attr ('for')) .attr('checked'));
   calcPrise();
   event.preventDefault();
 });
 
+$(document).on ('click', '.product input[type=radio] + label ', function(event){
+
+  // $ ('.product input[type=checkbox]#' +  $(this).attr ('for')) .attr('checked', ! $ ('.product input[type=checkbox]#' +  $(this).attr ('for')) .attr('checked'));
+  // calcPrise();
+  // event.preventDefault();
+  setTimeout(function(){ calcPrise()}, 100);
+});
+
 function calcPrise (){
+  let price = parseInt($('.product__description_input input[type=radio]:checked + label span').text().replaceAll(' ', '').replace('&nbsp;', '').replace('руб.', ''));
   $('.product__description_right .product__general_options_foundation').hide();
   $.each($('.product__description_right input[type=checkbox]:checked'),function(i,e){
-
+    price = price + parseInt($('.product__description_right label[for='+$(e).attr('id')+'] span').text().replaceAll(' ', '').replace('&nbsp;', '').replace('руб.', '')) ;
     $(e).parents('.product__general_options_foundation').show();
-
   });
+  $('.product__description_group-price ').text(price.toLocaleString('ru') + ' руб.');
 }
-
+calcPrise();
 });
 
