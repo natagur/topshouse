@@ -298,36 +298,7 @@
     &_pages-link.active{
       color: #212529;
     }
-    &_info-descr{
-      font-size: 13px;
-      line-height: 26px;
-      color: #68655e;
-      margin-bottom: 20px;
-    }
-    &_info-title{
-      margin-bottom: 20px;
-      color: #68655e;
-      font-size: 20px;
-      font-weight: 700;
-    }
-    &_info-list{
-      margin-bottom: 20px;
-    }
-    &_info-item{
-      font-size: 13px;
-      line-height: 26px;
-      color: #68655e;
-      &::before{
-        content: "";
-        padding-right: 29px;
-        background: url(../img/marker.png);
-        background-repeat: no-repeat;
-        background-position-y: center;
-      }
-    }
-    &_info-link{
-      color: #a0cf11;
-    }
+
   }
   .slider-list__list-title{
     display: flex;
@@ -519,6 +490,40 @@
   background: #a0cf11;
   height: 2px;
 }
+.catalog__container_info-bottom{
+  p{
+    font-size: 13px;
+    line-height: 26px;
+    color: #68655e;
+    margin-bottom: 20px;
+  }
+
+  h3{
+    margin-bottom: 20px;
+    color: #68655e;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  ul{
+    margin-bottom: 20px;
+  }
+  li{
+    font-size: 13px;
+    line-height: 26px;
+    color: #68655e;
+    &::before{
+      content: "";
+      padding-right: 29px;
+      background: url(../img/marker.png);
+      background-repeat: no-repeat;
+      background-position-y: center;
+    }
+  }
+  a{
+    color: #a0cf11;
+  }
+}
+
 @media (max-width:1320px){
   .catalog{
     .wrapper{
