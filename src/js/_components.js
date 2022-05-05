@@ -437,5 +437,22 @@ function calcPrise (){
   $('.product__description_group-price ').text(price.toLocaleString('ru') + ' руб.');
 }
 calcPrise();
+
+});
+$(document).on('click', '.categories__choice_item:not(.active)', function(event){
+  // $(this).parent().find('.categories__choice_item').hide();
+  $(this).parent().find('.categories__choice_item').removeClass('active');
+  $(this).parent().removeClass('active');
+  $(this).addClass('active');
+
+  $('.categories__choice_block_link .categories__choice_block').removeClass('active');
+  $('.categories__choice_block_link .categories__choice_block').eq($(this).index()).addClass('active');
+
+  event.preventDefault();
+});
+$(document).on('click', '.categories__choice_item.active', function(event){
+  $(this).parent().addClass('active');
+
+  event.preventDefault();
 });
 

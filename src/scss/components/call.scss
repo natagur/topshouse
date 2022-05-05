@@ -1,0 +1,34 @@
+.call{
+  margin-bottom: 180px;
+  &__block_bg{
+    background: url("/img/call-bg.jpg");
+    background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  &__block_descr{
+    font-size: 20px;
+    color: #212529;
+    padding-bottom: 30px;
+  }
+  &__block_descr:last-child{
+    padding-bottom: 0;
+  }
+  &__block_descr_link{
+    font-size: 20px;
+    color: #212529;
+    font-weight: bold;
+  }
+  &__block_link{
+    padding: 25px;
+    font-size: 18px;
+    max-width: 285px;
+    background-color: #cee908;
+  }
+  &__block_info{
+    width: 38%;
+  }
+}

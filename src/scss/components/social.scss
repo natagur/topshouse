@@ -1,0 +1,31 @@
+.social{
+  background: url("/img/about-company-social.jpg");
+  margin-bottom: 180px;
+  &__block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+  }
+  &__block_descr{
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    margin-right: 160px;
+  }
+  &__block_list{
+    display: flex;
+    align-items: center;
+  }
+  .bi.bi-twitter,
+  .bi.bi-instagram,
+  .bi.bi-youtube,
+  .fa-brands.fa-vk,
+  .bi.bi-facebook,
+  .fa-brands.fa-odnoklassniki-square{
+    color: #fff;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

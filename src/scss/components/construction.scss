@@ -1,0 +1,35 @@
+.construction{
+  margin-bottom: 170px;
+  &__section_title{
+    color: #353530;
+    font-size: 36px;
+    margin-bottom: 60px;
+    font-weight: 300;
+  }
+  &__block{
+    display: flex;
+  }
+  &__block_left{
+    max-width: 390px;
+    text-align: center;
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+  &__block_descr{
+    color: #2c2c28;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+  &__block_title{
+    font-size: 18px;
+    color: #2c2c28;
+    max-width: 330px;
+    font-weight: 600;
+    position: absolute;
+    right: 31%;
+  }
+  &__block_right{
+    position: relative;
+  }
+}
