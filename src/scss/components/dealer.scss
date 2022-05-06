@@ -1,0 +1,32 @@
+.dealer{
+  margin-bottom: 160px;
+  &__section_title{
+    margin-bottom: 60px;
+    color: #353530;
+    font-size: 36px;
+    font-weight: 300;
+  }
+  &__block{
+    display: flex;
+  }
+  &__block_descr,
+  &__block_img{
+    width: 50%;
+  }
+  &__block_descr{
+    margin-right: 40px;
+  }
+  p{
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2c2c28;
+    text-indent: 55px;
+  }
+  .big{
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 26px;
+    text-indent: 55px;
+  }
+}

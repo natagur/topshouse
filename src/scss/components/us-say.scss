@@ -1,0 +1,32 @@
+.us-say{
+  &__section_title{
+    color: #353530;
+    font-size: 36px;
+    font-weight: 300;
+    text-align: right;
+    margin-bottom: 80px;
+  }
+  &__block{
+    display: flex;
+    background: url("/img/us-say.jpg") left bottom no-repeat;
+    height: 803px;
+  }
+  &__block_left,
+  &__block_right{
+    background-color: rgba(240,238,239,0.85);
+    padding: 60px 60px 40px;
+    max-height: 545px;
+  }
+  &__block_left{
+    margin-right: 40px;
+  }
+  &__block_title{
+    border-bottom: 2px solid #b5bbbe;
+    margin-bottom: 60px;
+    padding: 0 60px 25px 0;
+    color: #5c676d;
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 600;
+  }
+}

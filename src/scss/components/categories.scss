@@ -45,4 +45,14 @@
       font-weight: 500;
     }
   }
+  &__choice_block.item{
+    display: none;
+  }
+  &__choice_block.item.active{
+    display: block;
+  }
+  .header__btn{
+    margin-top: 60px;
+    text-align: right;
+  }
 }

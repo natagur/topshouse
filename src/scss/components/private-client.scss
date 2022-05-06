@@ -1,0 +1,30 @@
+.private-client{
+  margin-bottom: 160px;
+  &__section_title{
+    text-align: right;
+    margin-bottom: 80px;
+    color: #353530;
+    font-size: 36px;
+    font-weight: 300;
+  }
+  &__block{
+    display: flex;
+  }
+  p{
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 26px;
+    text-indent: 55px;
+  }
+  .big{
+    font-size: 24px;
+    line-height: 26px;
+  }
+  &__images{
+    margin-right: 40px;
+    width: 40%;
+  }
+  &__descr{
+    width: 60%;
+  }
+}

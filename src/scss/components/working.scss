@@ -1,0 +1,167 @@
+.working{
+  margin-bottom: 115px;
+  background: #f0eeef;
+  &__block{
+    display: flex;
+    padding-top: 105px;
+    padding-bottom: 105px;
+  }
+  &__block_left{
+    width: 68%;
+  }
+  &__block_top{
+    display: flex;
+    margin-bottom: 80px;
+  }
+  &__block_top_title{
+    color: #353530;
+    font-size: 36px;
+    font-weight: 300;
+    width: 50%;
+  }
+  &__block_top_descr{
+    font-size: 27px;
+    line-height: 33px;
+    color: #c6690a;
+    font-style: italic;
+    font-weight: 200;
+    text-indent: 60px;
+    width: 50%;
+  }
+  .job__right-job{
+    width: 100%;
+  }
+  .job-list{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .job-item{
+    display: flex;
+    width: 50%;
+    margin-bottom: 40px;
+  }
+  .job-span{
+    color: #f0e7de;
+    font-weight: 900;
+    font-size: 148px;
+    font-style: normal;
+    line-height: 105px;
+    margin-right: 20px;
+  }
+  .left-block-center{
+    position: relative;
+    width: 100%;
+  }
+  .bi.bi-chat-square,
+  .bi.bi-arrow-clockwise,
+  .bi.bi-briefcase,
+  .bi.bi-telephone-inbound,
+  .bi.bi-house-door,
+  .bi.bi-check2-circle{
+    color: #d46702;
+    font-size: 1.875rem;
+    position: absolute;
+    top: -9px;
+    right: 93px;
+  }
+  .job-right-desc{
+    padding-right: 32px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 10px;
+    color: #2c2c28;
+    padding-top: 0;
+  }
+  .job-right-desc-bot{
+    color: #2c2c28;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    padding-right: 32px;
+  }
+
+
+
+  &__block_right{
+    width: 32%;
+  }
+  &__block_right_form{
+    border-bottom: 5px solid #8fc63d;
+    background: #fff;
+    box-shadow: 0 4px 18px 0 rgb(0 0 0 / 30%);
+  }
+  &__block_right_form_top{
+    padding: 15px 31px 5px;
+    border-bottom: 1px solid rgba(82,92,105,0.11);
+    text-align: center;
+  }
+  &__block_right_title{
+    letter-spacing: .6px;
+    padding-bottom: 9px;
+    color: #000;
+    font-size: 24px;
+  }
+  &__block_right_descr{
+    padding-bottom: 15px;
+    opacity: .8;
+    color: #000;
+    font-size: 15px;
+  }
+  .form{
+    padding: 14px 31px;
+  }
+  .input{
+    border-radius: 4px;
+    padding: 17px 10px 17px;
+    border: 0;
+    background: #ededed;
+    padding-right: 35px;
+    margin-bottom: 24px;
+    width: 100%;
+  }
+  .label-bottom{
+    font-size: 11px;
+    line-height: 1;
+    cursor: pointer;
+    margin-bottom: 15px;
+  }
+  .form__button{
+    background: rgb(143 198 61);
+    cursor: pointer;
+    padding: 18px 123px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    border: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+
+  .protection{
+    display: flex;
+    padding-bottom: 15px;
+    justify-content: end;
+    height: 60px;
+    &__description{
+      padding: 10px;
+      background: #1a73e8;
+    }
+    &_descr{
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 7px;
+      color: #fff;
+    }
+    &_link{
+      font-size: 9px;
+      color: #fff;
+    }
+    &_img{
+      padding: 8px 13px 8px 13px;
+      box-shadow: 0 4px 18px 0 rgb(0 0 0 / 30%);
+    }
+  }
+}
