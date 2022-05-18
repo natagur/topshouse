@@ -1,0 +1,35 @@
+.diploma{
+  background-color: #dbd9da;
+  padding: 75px 0 105px;
+  margin-bottom: 125px;
+  position: relative;
+  overflow: hidden;
+  &__section_title{
+    color: #353530;
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 75px;
+  }
+  .bi.bi-chevron-left,
+  .bi.bi-chevron-right{
+    position: absolute;
+    color: #a5a6aa;
+    font-size: 50px;
+  }
+  .slider-suggestions__block-suggestions{
+    position: relative;
+  }
+  .suggestions-list{
+    max-height: 300px;
+    min-width: calc(20vw - 25px);
+    margin-right: 0;
+  }
+  .suggestions-backgraund{
+    height: 100%;
+  }
+  .slider__click{
+    top: 50%;
+    width: 100%;
+    left: 0;
+  }
+}

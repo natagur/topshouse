@@ -89,4 +89,25 @@
     bottom: 113px;
   }
 }
-// technology.jpg
+@media (max-width:1320px){
+  .benefits__block{
+    display: block;
+  }
+  .benefits__block_left{
+    width: 100%;
+  }
+  .benefits__block_right{
+    display: flex;
+    position: inherit;
+    padding-left: 40px;
+  }
+  .benefits__block_one,
+  .benefits__block_two,
+  .benefits__block_three{
+    position: inherit;
+    margin-right: 5px;
+  }
+}
+@media (max-width:479px){
+
+}

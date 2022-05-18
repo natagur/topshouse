@@ -1,5 +1,14 @@
 .working{
   margin-bottom: 115px;
+  &::before{
+    content: "";
+      background: url(/img/marks.png);
+      display: block;
+      position: absolute;
+      right: 64px;
+      width: 186px;
+      height: 135px;
+  }
   background: #f0eeef;
   &__block{
     display: flex;

@@ -32,3 +32,25 @@
     width: 38%;
   }
 }
+@media (max-width:1320px){
+  .call__block_bg{
+    display: block;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .call__block_info{
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .call__block_descr{
+    font-size: 18px;
+  }
+  .header__btn.call__block_button{
+    text-align: center;
+  }
+}
+@media (max-width:479px){
+  .call__block_info{
+    text-align: center;
+  }
+}

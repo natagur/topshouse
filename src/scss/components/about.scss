@@ -109,3 +109,36 @@
     color: #5c676d;
   }
 }
+@media (max-width:1320px){
+  .about{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .about__company{
+    display: block;
+  }
+  .about__company_border{
+    margin-bottom: 150px;
+  }
+  .about__company_bg{
+    background: none;
+  }
+  .about__company_right_descr{
+    max-width: 100%;
+  }
+  .about__company_list{
+    display: block;
+    text-align: center;
+  }
+  .about__company_bottom_bg{
+    width: 100%;
+    position: initial;
+  }
+  .about__company_item{
+    display: flex;
+    justify-content: center
+  }
+  .about__company_description{
+    margin: 0;
+  }
+}

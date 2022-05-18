@@ -1,0 +1,35 @@
+.legal-info{
+  &__section_title{
+    color: #353530;
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 80px;
+  }
+  &__general_equipment{
+    max-width: 780px;
+    display: block;
+    overflow: hidden;
+    font-size: 16px;
+    color: #2c2c28;
+  }
+  &__general_equipment_table{
+    margin-bottom: 120px;
+  }
+  &__general_equipment_row-th{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    vertical-align: top;
+  }
+  &__general_equipment_left{
+    grid-column: 1;
+    grid-row: 1/500;
+    padding: 0.75rem;
+  }
+  &__general_equipment_row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    vertical-align: top;
+    border-bottom: 0;
+    padding-bottom: 5px;
+  }
+}

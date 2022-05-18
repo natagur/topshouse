@@ -1,0 +1,52 @@
+.contacts-info{
+  margin-bottom: 120px;
+  &__title{
+    color: #353530;
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 80px;
+  }
+  &__list{
+    width: 70%;
+    z-index: 1;
+  }
+  &__item{
+    display: flex;
+    margin-bottom: 30px;
+  }
+  &__info{
+    display: flex;
+    position: relative;
+    &::before{
+      content: "";
+      background: url("/img/contacts-info.jpg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      display: block;
+      height: 260px;
+      background-position: right;
+      width: 45%;
+      position: absolute;
+      right: 17%;
+      top: 52px;
+    }
+  }
+  &__descr{
+    width: 35%;
+    font-weight: 500;
+    font-size: 16px;
+    color: #2c2c28;
+  }
+  &__link{
+    width: 15%;
+    flex-direction: column;
+    display: flex;
+  }
+  &__mail,
+  &__tel{
+    color: #69880b;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+}

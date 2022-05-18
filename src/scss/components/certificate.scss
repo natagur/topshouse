@@ -38,3 +38,37 @@
     font-size: 16px;
   }
 }
+@media (max-width:1320px){
+  .certificate__block_bg{
+    display: block;
+  }
+  .certificate__block_sert{
+    margin-bottom: 40px;
+  }
+  .certificate__block_description{
+    width: 100%;
+    background: url(/img/benefits1.webp);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 40%;
+  }
+  .certificate__block_title {
+    width: 75%;
+  }
+}
+@media (max-width:479px){
+  .certificate__block_title {
+    display: none;
+  }
+  .certificate__block_description {
+    width: 100%;
+    background: none;
+  }
+  .certificate:before{
+    width: 130px;
+    height: 100px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    right: 0;
+  }
+}
