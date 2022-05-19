@@ -16,6 +16,9 @@
   &__block_descr{
     margin-right: 40px;
   }
+  &__block_img.mobile{
+    display: none;
+  }
   p{
     margin-bottom: 20px;
     font-size: 16px;
@@ -29,4 +32,32 @@
     line-height: 26px;
     text-indent: 55px;
   }
+}
+@media (max-width:1320px){
+  .dealer{
+    margin-bottom: 100px;
+  }
+  .dealer__section_title{
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .dealer__block{
+    display: block;
+  }
+  .dealer__block_descr{
+    margin-right: 0;
+    width: 100%;
+  }
+  .dealer__block_img{
+    display: none;
+  }
+  .dealer__block_img.mobile{
+    width: 100%;
+    display: block;
+  }
+  .dealer__block_img img{
+    width: 100%;
+  }
+}
+@media (max-width:479px){
 }

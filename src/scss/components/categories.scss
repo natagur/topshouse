@@ -56,3 +56,35 @@
     text-align: right;
   }
 }
+@media (max-width:1320px){
+  .categories{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .categories__section_title{
+    text-align: left;
+  }
+  .categories .header__btn{
+    text-align: center;
+  }
+  .categories__choice_item{
+    width: 20vw;
+  }
+  .categories__choice_list{
+    overflow: auto;
+  }
+}
+@media (max-width:479px){
+  .categories{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .categories__section_title{
+    font-size: 30px;
+    padding-left: 20px;
+  }
+  .categories__choice{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

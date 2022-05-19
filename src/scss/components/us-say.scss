@@ -30,6 +30,11 @@
     font-weight: 600;
   }
   @media (max-width:1320px){
+    &__section_title{
+      font-size: 30px;
+      text-align: left;
+      margin-bottom: 20px;
+    }
     &__block {
       height: auto;
       flex-wrap: wrap;
@@ -40,8 +45,39 @@
         margin-bottom: 20px;
         text-align: center;
       }
+      &_left iframe,
+      &_right iframe {
+        width: auto;
+      }
       &_title {
         padding: 0 0px 25px 0;
+      }
+    }
+  }
+  @media (max-width:479px){
+    &__section_title{
+      font-size: 30px;
+      text-align: left;
+      margin-bottom: 20px;
+    }
+    &__block {
+      height: auto;
+      flex-wrap: wrap;
+      &_left,
+      &_right {
+        padding: 0;
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+      &_left iframe,
+      &_right iframe {
+        width: 100%;
+      }
+      &_title {
+        padding: 30px 15px;
+        margin-bottom: 35px;
+        text-align: left;
+        font-size: 30px;
       }
     }
   }

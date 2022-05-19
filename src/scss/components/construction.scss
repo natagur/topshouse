@@ -33,3 +33,27 @@
     position: relative;
   }
 }
+@media (max-width:1320px){
+  .construction{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .construction__block{
+    display: block;
+  }
+  .construction__block_left{
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: inherit;
+  }
+  .construction__section_title{
+    font-weight: 400;
+  }
+  .construction__block_left{
+    text-indent: 50px;
+  }
+}
+@media (max-width:479px){
+
+}

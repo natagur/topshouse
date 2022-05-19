@@ -33,3 +33,16 @@
     left: 0;
   }
 }
+@media (max-width:1320px){
+  .diploma{
+    padding: 50px 0 60px;
+    margin-bottom: 80px;
+    margin-top: 50px;
+  }
+  .diploma__section_title{
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+}
+@media (max-width:479px){
+}

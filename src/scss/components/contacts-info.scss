@@ -50,3 +50,39 @@
     line-height: 24px;
   }
 }
+@media (max-width:1320px){
+  .social__block{
+    flex-flow: wrap;
+  }
+  .contacts-info__item{
+    flex-flow: wrap;
+    .contacts-info__descr {
+      width: 50%;
+      &:last-child{
+        margin-left: 50%;
+      }
+    }
+  }
+  .contacts-info__title{
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+  .contacts-info__list{
+    width: 100%;
+  }
+  .contacts-info__info{
+    margin-bottom: 50vw;
+    &::before{
+      top: auto;
+      bottom: 0;
+      width: 100%;
+      right: 0;
+      transform: translateY(45vw);
+    }
+  }
+  .contacts-info__link{
+    width: auto;
+  }
+}
+@media (max-width:479px){
+}

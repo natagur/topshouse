@@ -174,3 +174,58 @@
     }
   }
 }
+@media (max-width:1320px){
+  .wrapper{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .working__block{
+    display: block;
+  }
+  .working__block_left{
+    width: 100%;
+  }
+  .working__block_top{
+    display: block;
+  }
+  .working__block_top_title{
+    font-size: 30px;
+    width: 100%;
+    margin-bottom: 45px;
+  }
+  .working__block_top_descr{
+    width: 100%;
+    font-weight: 500;
+  }
+  .working .bi.bi-chat-square,
+  .working .bi.bi-arrow-clockwise,
+  .working .bi.bi-briefcase,
+  .working .bi.bi-telephone-inbound,
+  .working .bi.bi-house-door,
+  .working .bi.bi-check2-circle{
+    right: 27px;
+  }
+  .working__block_right{
+    width: 100%;
+  }
+  .working .form__button{
+    width: 100%;
+  }
+}
+@media (max-width:479px){
+  .working::before{
+    width: 130px;
+    height: 100px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .working__block_top_descr{
+    font-size: 20px;
+  }
+  .job-list{
+    display: block;
+  }
+  .working .job-item{
+    width: 100%;
+  }
+}

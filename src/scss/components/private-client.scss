@@ -28,3 +28,29 @@
     width: 60%;
   }
 }
+@media (max-width:1320px){
+  .private-client{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .private-client__section_title{
+    font-size: 30px;
+    font-weight: 300;
+  }
+  .private-client__block{
+    display: block;
+  }
+  .private-client__images{
+    width: 100%;
+    margin-bottom: 30px;
+    margin-right: 0;
+  }
+  .private-client__images img{
+    width: 100%;
+  }
+  .private-client__descr{
+    width: 100%;
+  }
+}
+@media (max-width:479px){
+}
