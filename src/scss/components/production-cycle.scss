@@ -1,0 +1,207 @@
+.production-cycle{
+  margin-bottom: 150px;
+  &__section__title{
+    font-weight: 100;
+    font-size: 36px;
+    margin-bottom:  60px;
+    text-align: right;
+  }
+  &__subtitle{
+    max-width: 480px;
+    margin: 0 0 40px auto;
+    text-align: right;
+    color: #6c6963;
+    font-size: 18px;
+  }
+  &__block_top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+  }
+  &__block_left{
+    width: 40%;
+    margin-right: 40px;
+  }
+  &__block_right{
+    width: 60%;
+  }
+  &__bg{
+    background: #f0eeef url(/img/production-cycle-bg.webp);
+    background-repeat: no-repeat;
+    padding: 50px 0 0 100px;
+    position: relative;
+    min-height: 795px;
+    margin-bottom: 55px;
+  }
+  &__item{
+    display: flex;
+    max-width: 260px;
+  }
+  &__number{
+    font-size: 60px;
+    color: #dfccaa;
+    font-weight: 500;
+    line-height: 50px;
+    margin-right: 25px;
+  }
+  &__descr{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.4;
+  }
+  &__position_one{
+    position: absolute;
+    left: 25%;
+  }
+  &__position_two{
+    position: absolute;
+    left: 37%;
+    top: 20%;
+  }
+  &__position_three{
+    position: absolute;
+    top: 36%;
+    left: 59%;
+  }
+  &__position_four{
+    position: absolute;
+    top: 50%;
+    left: 44%;
+  }
+  &__position_five{
+    position: absolute;
+    bottom: 24%;
+    left: 22%;
+  }
+  &__position_six{
+    position: absolute;
+    bottom: 7%;
+    left: 51%;
+  }
+  &__bottom_text{
+    text-align: right;
+    max-width: 615px;
+    margin: 0 0 0 auto;
+    color: #6c6963;
+    font-size: 17px;
+  }
+  &__block_bottom{
+    display: flex;
+    position: relative;
+  }
+  &__block-info{
+    width: 50%;
+    margin-right: 40px;
+    margin-top: 60px;
+    &::before{
+      content: "";
+      background: url(/img/before-left.png);
+      display: block;
+      width: 51px;
+      height: 78px;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 38%;
+      right: 53%;
+      transform: rotate(179deg);
+    }
+  }
+  &__block-video{
+    width: 50%;
+  }
+  &__block-video iframe{
+    width: 100%
+  }
+  &__desc{
+    font-size: 15px;
+    text-align: right;
+    margin-right: 10px;
+    max-width: 160px;
+    margin-left: 71px;
+    display: flex;
+    position: relative;
+    font-weight: 700;
+    &::before{
+      content: "";
+      background: url("/img/blocksh.png");
+      display: block;
+      width: 26px;
+      height: 135px;
+      position: absolute;
+      right: -37px;
+      top: 13px;
+      background-size: 100%;
+    }
+  }
+  &__list_item{
+    margin-bottom: 10px;
+    font-size: 15px;
+    text-align: left;
+    font-weight: 700;
+  }
+  &__before{
+    display: flex;
+    position: relative;
+    &::before{
+      content: "";
+      background: url(/img/before-left.png);
+      display: block;
+      width: 51px;
+      height: 78px;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 25%;
+    }
+  }
+  &__list{
+    margin-left: 45px;
+    margin-top: -25px;
+    margin-right: 60px;
+  }
+}
+@media (max-width:1320px){
+  .production-cycle__section__title{
+    margin-bottom: 20px;
+  }
+  .production-cycle__block_top{
+    display: block;
+  }
+  .production-cycle__block_left{
+    width: 100%;
+    margin-right: 100%;
+    margin-bottom: 30px;
+  }
+  .production-cycle__block_right{
+    width: 100%;
+  }
+  .production-cycle__images{
+    width: 100%;
+  }
+  .production-cycle__bottom_text{
+    text-align: inherit;
+    margin: 0;
+  }
+  .production-cycle__block_bottom{
+    display: block;
+  }
+  .production-cycle__block-info{
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .production-cycle__block-video{
+    width: 100%;
+  }
+  .production-cycle__desc{
+    color: #77756f;
+  }
+  .production-cycle__list_item{
+    color: #77756f;
+  }
+  .production-cycle__block-info::before{
+    top: 8%;
+    right: 0;
+    transform: rotate(179deg);
+  }
+}

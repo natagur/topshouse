@@ -1,0 +1,88 @@
+.about-proizvodstvo{
+  margin-bottom: 85px;
+  &__section_title{
+    margin-bottom: 90px;
+    font-size: 36px;
+    font-weight: 100;
+    color: #2c2c28;
+  }
+  &__white{
+    display: flex;
+    &-list{
+      padding: 20px;
+    }
+  }
+  &__gray{
+    background: #f0eeef;
+    &-list{
+      padding: 20px;
+      width: 50%;
+      float: left;
+      @media (max-width:1320px){
+        width: 100%;
+        float: inherit;
+      }
+      &>p{
+        padding: 25px 0 45px 60px;
+      }
+      &>div{
+        display: flex;
+        flex-flow: wrap;
+        &>p{
+          width: 50%;
+          font-size:18px;
+          font-weight: bold;
+          padding: 0 20px 0 60px;
+          margin-bottom: 40px;
+          position: relative;
+          &>span{
+            font-size:18px;
+            font-weight: 700;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            border: 1px dashed gray;
+            width: 26px;
+            height: 26px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width:1320px){
+  .about-proizvodstvo__white{
+    display: block;
+  }
+  .about-proizvodstvo__gray-list > div{
+    display: flex;
+  }
+  .about-proizvodstvo{
+    margin-bottom: 70px;
+  }
+  .about-proizvodstvo__section_title{
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+}
+@media (max-width:479px){
+  .about-proizvodstvo__white{
+    display: block;
+  }
+  .about-proizvodstvo__gray-list > div{
+    display: block;
+  }
+  .about-proizvodstvo{
+    margin-bottom: 70px;
+  }
+  .about-proizvodstvo__section_title{
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  .about-proizvodstvo__gray img{
+    width: 100%;
+  }
+}
